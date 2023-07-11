@@ -4,7 +4,7 @@ const Header = () => {
         <header>
             <div className="flex py-4 px-2 lg:px-28 bg-[#F2F2F2]">
                 <div id="logo" className="flex item-center pt-1">
-                    <img src="/Logo.svg" alt="" />
+                    <img src="/PMReady/Logo.svg" alt="" />
                 </div>
                 <div id="menu" className="flex flex-grow justify-end z-20">
                     <ul className="flex space-x-4 items-center text-xl ">
@@ -23,11 +23,11 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="hidden lg:block pl-4 my-auto">
-                    <img src="/user.svg" alt="" />
+                    <img src="/PMReady/user.svg" alt="" />
                 </div>
                 <div className="flex items-center ">
                     <a href="#">
-                        <img className="block lg:hidden" src="/menu.png" alt="" />
+                        <img className="block lg:hidden" src="/PMReady/menu.png" alt="" />
                     </a>
                     <div className="hidden lg:flex lg:space-x-3 items-center"></div>
                 </div>

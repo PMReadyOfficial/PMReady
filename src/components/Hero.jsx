@@ -1,7 +1,7 @@
 export default function Hero() {
     return (
         <div className="flex items-start lg:justify-center flex-col lg:flex-row lg:gap-10 xl:gap-20 2xl:gap-60 mb-10">
-            <div className="mt-8 max-lg:mx-auto lg:mt-28 lg:ml-32">
+            <div className="mt-8 max-lg:mx-auto lg:mt-28 lg:ml-16">
                 <h1 className="text-6xl lg:text-7xl w-80 lg:w-[508px] mr-5 lg:mr-10 pb-4">
                 Lorem ipsum dolor 
                 </h1>

@@ -1,3 +1,4 @@
+
 export default function Resources() {
     return (
         <div className="flex justify-center items-center">
@@ -27,3 +28,4 @@ export default function Resources() {
         </div>
     );
 }
+

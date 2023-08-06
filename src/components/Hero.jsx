@@ -9,7 +9,9 @@ export default function Hero() {
                     </h1>
                     <div className="CTA flex gap-3 mt-10 lg:text-2xl font-semibold">
                         <button className="px-10 py-3 bg-[#023849] border-4 text-[#FEFDFF] border-[#023849] rounded-[100px]">Get Started</button>
-                        <button className="px-10 py-3 bg-[#FEFDFF] border-4 text-[#023849] border-pink-500 rounded-[100px]">Login</button>
+                        <button className=" text-[#24223C] border-gradient rounded-[100px] p-1">
+                                <div className="px-10 py-3 rounded-[100px] bg-[#FEFDFF]">Login</div>
+                        </button>
                     </div>
                 </div>
             </div>

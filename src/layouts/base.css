@@ -5,3 +5,8 @@
 .border-gradient {
     background: linear-gradient(92.49deg, rgba(6, 183, 167, 0.6) 1.09%, rgba(140, 198, 63, 0.6) 25.34%, rgba(243, 198, 116, 0.6) 73.34%, rgba(252, 193, 168, 0.6) 99.41%);
 }
+
+.course-gradient {
+    /* opacity: 0.15; */
+    background: linear-gradient(120deg, rgba(6, 183, 167, 0.15) 0%, rgba(140, 198, 63, 0.15) 24.67%, rgba(243, 198, 116, 0.15) 73.48%, rgba(252, 193, 168, 0.15) 100%);
+}

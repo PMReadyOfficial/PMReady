@@ -14,7 +14,7 @@
 4. Make your changes
     
     Example- creating a new component
-5. Add your updated files to git
+5. Add your updated files to git to stage them for commit
    ```bash
    git add .
    ```

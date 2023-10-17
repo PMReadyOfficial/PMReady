@@ -9,19 +9,19 @@ const Header = () => {
                 <div id="menu" className="flex flex-grow justify-end z-20 font-inter text-[#24223C]">
                     <ul className="flex gap-8 items-center text-lg">
                         <li className="hidden lg:block p-3 ">
-                            <a href="#" className="hover:underline decoration-2">Courses</a>
-                        </li>
-                        <li className="hidden lg:block p-3">
                             <a href="#" className="hover:underline decoration-2">Resources</a>
                         </li>
                         <li className="hidden lg:block p-3">
-                            <a href="#" className="hover:underline decoration-2">Job Board</a>
+                            <a href="#" className="hover:underline decoration-2">Community</a>
+                        </li>
+                        <li className="hidden lg:block p-3">
+                            <a href="#" className="hover:underline decoration-2">Contact</a>
                         </li>
                         <li className="hidden lg:block p-3">
                             <a href="#" className="hover:underline decoration-2">About</a>
                         </li>
-                        <li className="hidden lg:block p-2 rounded-full bg-[#E2E1EC]">
-                            <img src="/PMReady/user.svg" alt="" />                        </li>
+                        {/* <li className="hidden lg:block p-2 rounded-full bg-[#E2E1EC]">
+                            <img src="/PMReady/user.svg" alt="" />                        </li> */}
                     </ul>
                 </div>
                 <div className="flex items-center ">

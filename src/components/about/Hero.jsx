@@ -27,7 +27,7 @@ export default function Hero() {
                 
             </div>
             <div>
-                <div className="group-2422 absolute mx-5">
+                <div className="group-2422 absolute mx-5 ml-10">
                     <svg xmlns="http://www.w3.org/2000/svg" width="202" height="188" viewBox="0 0 202 188" fill="none">
                         <g opacity="0.25">
                             <path d="M11.4534 88.3909C19.4143 112.043 35.2414 130.817 57.2753 139.246C79.3091 147.674 103.435 144.217 124.885 131.827C116.925 108.175 101.097 89.401 79.0636 80.9727C57.0297 72.5444 32.9036 76.0009 11.4534 88.3909Z" fill="#3BCABE"/>
@@ -35,7 +35,7 @@ export default function Hero() {
                         </g>
                     </svg>
                 </div>
-                <div className="flex flex-row gap-5 relative mx-[120px] mt-[109px] mb-20 items-center">
+                <div className="flex flex-row gap-16 relative ml-[140px] mx-[120px] mt-[109px] mb-20 items-center">
                     <img src="images/image-9.png" alt="" />
                     <div className="flex flex-col gap-4 text-[#24223C]">
                         <h2 className="text-4xl font-lexend font-bold">About Us</h2>

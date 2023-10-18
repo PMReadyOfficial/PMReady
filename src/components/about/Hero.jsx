@@ -36,7 +36,7 @@ export default function Hero() {
                     </svg>
                 </div>
                 <div className="flex flex-row gap-5 relative mx-[120px] mt-[109px] mb-20 items-center">
-                    <img src="/PMReady/images/image-9.png" alt="" />
+                    <img src="images/image-9.png" alt="" />
                     <div className="flex flex-col gap-4 text-[#24223C]">
                         <h2 className="text-4xl font-lexend font-bold">About Us</h2>
                         <p className="text-lg font-inter xl:pr-40">PMReady helps tech and non-tech students break into the Product Management world. Our mission is to empower product managers with the skills, knowledge, and network they need to excel in their careers and make a real impact on the products and services we use every day.</p>

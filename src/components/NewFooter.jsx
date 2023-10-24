@@ -48,31 +48,31 @@ export default function NewFooter() {
                         />
                     </svg>
                     <p className="pr-16 text-white font-inter">
-                        Email@email.com
+                        <a href="mailto:pmready.official@gmail.com">pmready.official@gmail.com</a>
                     </p>
 
                     <div className="inline-flex gap-4">
                         <a
-                            href="#"
+                            href="./resources"
                             className="text-white transition duration-300 block"
                         >
                             Resources
                         </a>
                         <a
-                            href="#"
+                            href="./community"
                             className="text-white transition duration-300 block"
                         >
                             Community
                         </a>
                         <a
-                            href="#"
+                            href="./contact"
                             className="text-white transition duration-300 block "
                         >
                             Contact
                         </a>
 
                         <a
-                            href="#"
+                            href="./about"
                             className="text-white transition duration-300 block"
                         >
                             About

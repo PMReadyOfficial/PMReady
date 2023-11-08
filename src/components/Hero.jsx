@@ -139,11 +139,11 @@ export default function Hero() {
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
                             <div className="relative -ml-[50px] -mt-80 bg-[#FA9D74] w-[194px] h-[194px] rounded-full flex">
-                                <img className="rounded-full justify-center items-center m-4" src="./images/image-13.png" alt=""></img>
+                                <img className="rounded-full justify-center items-center m-4" src="./images/image-14.png" alt=""></img>
                             </div>
                         </div>
 
-                        <div className="ml-8">
+                        <div className="-ml-12">
                             <div className="relative -z-40 rect-grad w-[6px] h-[229px] -mt-20 ml-10 ">
 
                             </div>
@@ -151,10 +151,9 @@ export default function Hero() {
                                 <path d="M0.47011 0.0804127C-1.2042 12.1409 1.50042 23.8011 9.04772 32.3127C16.595 40.8244 27.5682 44.6133 39.3142 43.9196C40.9885 31.8591 38.2839 20.1989 30.7366 11.6873C23.1893 3.17557 12.2161 -0.61333 0.47011 0.0804127Z" fill="#9ADB67" />
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
-
-                            <svg className="relative -ml-[20px] -mt-60" xmlns="http://www.w3.org/2000/svg" width="125" height="125" viewBox="0 0 125 125" fill="none">
-                            <circle cx="62.5" cy="62.5" r="62.5" fill="#F5D190"/>
-                            </svg>
+                            <div className="relative -ml-[20px] -mt-60 bg-[#F5D190] w-[125px] h-[125px] rounded-full flex">
+                                <img className="rounded-full justify-center items-center m-4" src="./images/image-12.png" alt=""></img>
+                            </div>
                         </div>
                     </div>
 

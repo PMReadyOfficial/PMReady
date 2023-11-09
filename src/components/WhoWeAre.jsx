@@ -1,6 +1,6 @@
 export default function WhoWeAre() {
     return (
-        <div style={{ backgroundImage: "url(/PMReady/vector1.svg), url(/PMReady/vector4.svg)", backgroundPosition: "left top, right 100%"}} className="h-[200px] items-center justify-center bg-no-repeat bg-[12%,13%] pr-[209px] pl-[209px] pt-[209px] pb-[409px]">
+        <div style={{ backgroundImage: "url(vector1.svg), url(vector4.svg)", backgroundPosition: "left top, right 100%"}} className="h-[200px] items-center justify-center bg-no-repeat bg-[12%,13%] pr-[209px] pl-[209px] pt-[209px] pb-[409px]">
             <div className="flex flex-row gap-5 w-full h-[300px]">
                 <div className="w-2/5 h-full bg-no-repeat bg-cover shrink-0">
                     <img src="Rectangle.png" alt="" className="rounded-[0_0_80px_0]"/>

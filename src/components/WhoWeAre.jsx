@@ -3,7 +3,7 @@ export default function WhoWeAre() {
         <div style={{ backgroundImage: "url(/PMReady/vector1.svg), url(/PMReady/vector4.svg)", backgroundPosition: "left top, right 100%"}} className="h-[200px] items-center justify-center bg-no-repeat bg-[12%,13%] pr-[209px] pl-[209px] pt-[209px] pb-[409px]">
             <div className="flex flex-row gap-5 w-full h-[300px]">
                 <div className="w-2/5 h-full bg-no-repeat bg-cover shrink-0">
-                    <img src="/PMReady/Rectangle.png" alt="" className="rounded-[0_0_80px_0]"/>
+                    <img src="Rectangle.png" alt="" className="rounded-[0_0_80px_0]"/>
                 </div>
                 <div className="text-start w-2/5 pt-10">
                     <h5 className="text-[color:var(--color-teal-500,#023849)] text-[32px] not-italic font-bold leading-9">Who we are</h5>

@@ -9,6 +9,10 @@ Make sure you perform `git pull` before you checkout a new branch to avoid merge
    ```bash
    npm install
    ```
+3. Checkout to Dev branch
+   ```bash
+   git checkout Dev
+   ```
 3. Create a new branch
    ```bash
     git checkout -b feature-name

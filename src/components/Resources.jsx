@@ -1,19 +1,19 @@
 export default function Resources() {
     return (
-        <div className="flex justify-center items-center my-24">
+        <div className="flex justify-center items-center mt-24 mb-10">
             <div className="border-gradient flex p-[1px] rounded-md">
-                <div className="grid grid-cols-2 gap-4 w-[1141px] bg-[#FFFCF8] rounded-md">
+                <div className="grid grid-cols-2 gap-4 w-[940px] xl:w-[1141px] bg-[#FFFCF8] rounded-md">
                     <div className="py-10 pl-10 flex">
                         <div>
-                            <div className="font-semibold font-inter text-[30px] mt-10 mb-4">
+                            <div className="font-semibold font-inter text-2xl mt-10 mb-4">
                                 Resources
                             </div>
-                            <div className="text-[20px] mb-6">
+                            <div className="text-lg mb-6">
                                 Lorem ipsum dolor sit amet consectetur. Sed dis placerat
                                 tristique senectus pretium vestibulum tellus.
                             </div>
                             <button className=" text-[#24223C] border-gradient rounded-[100px] p-[2px]">
-                                <div className="px-10 py-3 rounded-[100px] font-semibold bg-[#FEFDFF]">Login</div>
+                                <div className="px-10 py-3 rounded-[100px] font-semibold bg-[#FEFDFF] text-lg">See More</div>
                             </button>
                         </div>
                         <div className="my-auto ml-12">
@@ -23,7 +23,7 @@ export default function Resources() {
                         </div>
                     </div>
                     <div className="p-12">
-                        <div class="text-[20px]">
+                        <div class="text-lg">
                             <div className="py-[30px] underline">Resume/Cover Letter Guide</div>
                             <div className="py-[30px] underline">Interview Prep</div>
                             <div className="py-[30px] underline">Shoutout to Other Creators</div>

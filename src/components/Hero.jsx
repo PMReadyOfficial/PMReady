@@ -117,7 +117,7 @@ export default function Hero() {
                     </svg>
                     <div className="flex flex-row">
                         <div>
-                            <div className="relative -z-40 rect-grad w-[6px] h-[229px] -mt-20 ml-10 ">
+                            <div className="relative -z-40 rect-grad1 w-[6px] h-[229px] -mt-[84px] ml-10 ">
 
                             </div>
                             <svg className="z-0 ml-[6px] -mt-[71px]" xmlns="http://www.w3.org/2000/svg" width="75" height="44" viewBox="0 0 75 44" fill="none">
@@ -131,7 +131,7 @@ export default function Hero() {
                         </div>
 
                         <div className="ml-32">
-                            <div className="relative -z-40 rect-grad w-[6px] h-[229px] -mt-20 ml-10 ">
+                            <div className="relative -z-40 rect-grad1 w-[6px] h-[229px] -mt-[84px] ml-10 ">
 
                             </div>
                             <svg className="z-0 ml-[6px] -mt-[100px]" xmlns="http://www.w3.org/2000/svg" width="75" height="44" viewBox="0 0 75 44" fill="none">
@@ -144,7 +144,7 @@ export default function Hero() {
                         </div>
 
                         <div className="-ml-12">
-                            <div className="relative -z-40 rect-grad w-[6px] h-[229px] -mt-20 ml-10 ">
+                            <div className="relative -z-40 rect-grad1 w-[6px] h-[229px] -mt-[84px] ml-10 ">
 
                             </div>
                             <svg className="z-0 ml-[6px] -mt-[71px]" xmlns="http://www.w3.org/2000/svg" width="75" height="44" viewBox="0 0 75 44" fill="none">
@@ -161,7 +161,7 @@ export default function Hero() {
 
                 </div>
             </div>
-            <div className="rect-grad1 w-full h-[12px] mb-44">
+            <div className="rect-grad w-full h-[12px] mb-44">
 
             </div>
         </div>

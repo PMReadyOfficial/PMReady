@@ -7,6 +7,10 @@
    ```bash
    npm install
    ```
+3. Checkout to Dev branch
+   ```bash
+   git checkout Dev
+   ```
 3. Create a new branch
    ```bash
     git checkout -b feature-name
@@ -52,5 +56,6 @@
 10.  Open a pull request on GitHub
 11. Wait for your pull request to be reviewed and merged!
 12. Celebrate! 🎉
+
 
     

@@ -161,7 +161,7 @@ export default function Hero() {
 
                 </div>
             </div>
-            <div className="rect-grad w-full h-[12px] mb-44">
+            <div className="rect-grad w-full h-[12px] mb-4">
 
             </div>
         </div>

@@ -1,6 +1,6 @@
 export default function Resources() {
     return (
-        <div className="flex justify-center items-center my-24">
+        <div className="flex justify-center items-center mt-24 mb-10">
             <div className="border-gradient flex p-[1px] rounded-md">
                 <div className="grid grid-cols-2 gap-4 w-[940px] xl:w-[1141px] bg-[#FFFCF8] rounded-md">
                     <div className="py-10 pl-10 flex">

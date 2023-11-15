@@ -22,7 +22,7 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-14 -mr-12 hidden lg:block">
+                <div className="mt-14 mr-3 hidden xl:block">
                     <svg className="-z-50" width="630" height="235" viewBox="0 0 630 235" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="7.5" cy="7.5" r="7.5" fill="#D7F5F2" />
                         <circle cx="42.5" cy="7.5" r="7.5" fill="#D7F5F2" />
@@ -161,7 +161,7 @@ export default function Hero() {
 
                 </div>
             </div>
-            <div className="rect-grad1 w-screen h-[12px] mb-44">
+            <div className="rect-grad1 w-full h-[12px] mb-44">
 
             </div>
         </div>

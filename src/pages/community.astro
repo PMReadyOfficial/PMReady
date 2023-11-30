@@ -1,0 +1,24 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Stats from "../components/Stats";
+import Footer from "../components/Footer";
+import Body from "../components/Body";
+import Resources from "../components/Resources";
+import NewFooter from "../components/NewFooter";
+import Discord from "../components/Discord";
+---
+
+<Layout title="PMReady">
+    <Header />
+    <Hero />
+    <main class="mx-auto">
+        <Discord />
+        <Stats />
+        <Body />
+        <Resources />
+    </main>
+    <!-- <Footer /> -->
+    <NewFooter />
+</Layout>

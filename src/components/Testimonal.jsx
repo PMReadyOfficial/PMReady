@@ -8,7 +8,7 @@ export default function Testimonial() {
     ]
 
     return (
-        <section className='my-20'>
+        <section className='my-20 mx-10'>
             <div className="flex justify-between space-x-8">
                 {/* Assuming you're mapping through an array of testimonials */}
                 {testimonials.map((testimonial, index) => (

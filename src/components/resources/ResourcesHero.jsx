@@ -1,7 +1,32 @@
 import ResourcesDefault from "./ResourcesDefault";
 import ResourcesVariant from "./ResourcesVariant";
 
-export default function ResourceHero() {
+function SearchBar() {
+    return (
+        <div className="mb-5 flex  h-[73px]  border-[1px] border-[#9C9AB7] bg-[#FEFDFF] justify-between items-center rounded-lg">
+            <input className="w-5/6 h-5/6 pl-4 placeholder-[#9C9AB7] body1" type="text" placeholder="Try &quot;Intro to Product Management&quot;" />
+            <img className="w-[24px] h-[24px] mr-[16px]" src="Search_Magnifying_Glass.png"></img>
+        </div>
+    )
+}
+
+function Hero() {
+    return (
+        <div className="flex mt-20 mx-32 content-center justify-center gap-5">
+            <div className="w-[500px] text-center shrink flex flex-col gap-5">
+                <h1 className="header1">Explore <p className="text-[#FA9D74] inline ">Resources</p></h1>
+                <p className="body1">See our curated list of job listings, interview tips, and more!</p>
+                <SearchBar className="mb-[60px] max-w-[600px]" />
+            </div>
+            <div className="flex-none">
+                <img className="w-[510px] h-[299px] " src="Rectangle6377.png"></img>
+            </div>
+        </div>
+
+    )
+}
+
+export default function ResourcesHero() {
     const heading1 = "Associate Product Manager (APM)";
     const resources1 = [
         { name: 'Open Programs', url: 'https://www.apmseason.com/' },
@@ -28,21 +53,7 @@ export default function ResourceHero() {
       ];
     return (
         <div>
-            {/* <div className="flex">
-                <div className=" mr-[20px] ml-[120px] mt-[220px] w-[1000px] h-[195px] text-center">
-                    <h1 className = "text-[104px] font-bold">Explore <p className="text-[#FA9D74] inline ">Resources</p></h1>
-                    <p className="mt-[20px]  text-[35px] ">See our curated list of job listings, interview tips, and more!</p> 
-                    <div className="mt-[20px] flex  h-[73px]  border-[1px] justify-center items-center rounded-[8px]">
-                        <input className="w-full h-full  pl-[12px] pr-[16px]"type="text" placeholder="Try &quot;Intro to Product Management&quot;" /> 
-                        <img className="w-[24px] h-[24px] mr-[16px]"src = "Search_Magnifying_Glass.png"></img>
-                    </div>
-                
-                    
-                </div>
-                <div className="mt-[178px] ml-[20px] mr-[50px]">
-                    <img className="w-[900px] h-[500px] " src = "Rectangle6377.png"></img>
-                </div>
-            </div> */}
+            <Hero />
             <div className="mt-16 mx-[120px] flex flex-col gap-10">
                 <ResourcesDefault resources={resources1} heading={heading1} />
                 <ResourcesVariant resources={resources2} heading={heading2} />

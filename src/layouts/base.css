@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+    .header1 {
+        @apply text-5xl font-lexend font-bold;
+        line-height: 54px !important;
+    }
     .header4 {
         @apply text-2xl font-lexend font-bold;
     }

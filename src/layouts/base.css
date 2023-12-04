@@ -22,6 +22,10 @@
     background: var(--Gradient, linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
 }
 
+.rect-grad1 {
+    background: var(--Gradient, linear-gradient(2deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
+}
+
 .swiper-pagination {
     position: static !important;
     margin-top: 20px;

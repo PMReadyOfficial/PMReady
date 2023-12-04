@@ -3,7 +3,7 @@ export default function VolunteerBanner() {
     return (
         <div className="text-center justify-center" >
             <h1  className="font-lexend text-4xl font-bold mt-10 " >
-                PMReady is made <p className="text-[#FA9D74] inline">by PMs,</p> <p className="text-[#3BCABE] inline">for PMs</p>
+                PMReady is made <span className="text-[#FA9D74]">by PMs, </span> <span className="text-[#3BCABE]">for PMs</span>
             </h1>
             <div className="grid mt-10 px-16 grid-cols-1 md:grid-cols-4 gap-5 w-[1040px] mx-auto">
                 <div className="inline-block justify-center text-center">

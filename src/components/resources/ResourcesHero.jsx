@@ -54,14 +54,12 @@ export default function ResourcesHero() {
     return (
         <div>
             <Hero />
-            <div className="mt-16 mx-[120px] flex flex-col gap-10">
+            <div className="my-16  mx-[120px] flex flex-col gap-10">
                 <ResourcesDefault resources={resources1} heading={heading1} />
                 <ResourcesVariant resources={resources2} heading={heading2} />
                 <ResourcesDefault resources={resources3} heading={heading3} />
                 <ResourcesVariant resources={resources4} heading={heading4} />
             </div>
-
-
         </div>
        
     )

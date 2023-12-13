@@ -20,6 +20,18 @@ export default function Testimonial() {
     return (
         <div className="mx-">
             <Swiper
+                breakpoints={{
+                    320: {
+                      slidesPerView: 1,
+                      spaceBetween: 20,
+                      //navigation: {enabled: false} - not working!
+                      //navigation: {hidden: true} - not working!
+                    },
+                    1024: {
+                      slidesPerView: 3,
+                      spaceBetween: 50,
+                    }
+                }}
                 style={{
                     "--swiper-pagination-color": "#9ADB67",
                     "--swiper-pagination-bullet-inactive-color": "#265019",
@@ -30,7 +42,7 @@ export default function Testimonial() {
                 initialSlide="1"
                 loop={true}
                 centeredSlides={true}
-                spaceBetween={50}
+                
                 pagination={{
                     clickable: true,
                 }}
@@ -40,7 +52,7 @@ export default function Testimonial() {
                 onSwiper={(swiper) => console.log(swiper)}
             >
                 {testimonials.map((testimonial) => (
-                    <SwiperSlide key={testimonial.id}><IndividualTestimonial  content={testimonial.content} className="" /></SwiperSlide>
+                    <SwiperSlide className="p-5 lg:p-0" key={testimonial.id}><IndividualTestimonial  content={testimonial.content} className="" /></SwiperSlide>
                 ))}
             </Swiper>
         </div>

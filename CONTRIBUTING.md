@@ -2,6 +2,8 @@
 
 ## Getting Started
 
+Make sure you perform `git pull` before you checkout a new branch to avoid merge conflicts!!
+
 1. Clone the repository
 2. Install the dependencies
    ```bash

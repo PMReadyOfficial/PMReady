@@ -2,31 +2,28 @@ import React from 'react'
 
 function Discord() {
     return (
-        <div className="flex">
-            <div className=" w-1/2">
-                <div className="bg-[#FEE8DF] w-[340px] h-[162px] inset-x-0 top-0">
-                <div>
-                <div className="absolute w-[386px] h-[173px] -mt-24 ml-24">
+        <div className="flex flex-col lg:flex-row min-[400px]:mx-8 lg:mx-32 my-36 gap-10">
+            <div className="relative">
+                <div className="w-[257px] h-[121px] -ml-5 lg:ml-0 lg:w-[340px] lg:h-[162px] bg-[#FEE8DF] rounded-[20px] mr-[155px]">
+                
+                <div className="absolute w-[293px] lg:w-[386px] h-[173px] -top-[30px] lg:-top-[80px] -left-[5px] lg:left-[30px] ">
                     <img src="images/DiscordConvo.png" />
+                    <div className="absolute bottom-[0px] -right-[30px] lg:-bottom-[51px] lg:-right-[41px] h-[70px] lg:h-[102px] w-[70px] lg:w-[102px] bg-[#586AEA] rounded-full flex items-center justify-center">
+                        <img className="w-[50px] lg:w-[65px]" src="images/discord-logo.png" />
+                    </div>
                 </div>
-                </div>
-                </div>
-                <div className="absolute bottom-0 right-0 h-16 w-16">
-                    <img src="image-9.jpg" />
                 </div>
             </div>
-            <div className="w-1/2 p-8">
-                <div className="font-semibold font-inter text-[30px] mt-10 mb-4">
+            <div className="flex flex-col mx-4 lg:mx-0 gap-2 lg:gap-4 -mt-[30px] lg:-mt-[40px]">
+                <div className="text-2xl lg:text-4xl font-lexend text-[#023849] font-bold">
                     Meet us on Discord
                 </div>
-                <div className="text-[20px] mb-6">
-                    Ask questions, share, and network on our detailed
-                    Discord server
+                <div className="text-base lg:text-lg font-inter text-[#24223C] pb-4">
+                    Ask questions, share, and network on our detailed <br className='hidden lg:block' /> Discord server
                 </div>
-                <div className="p-12">
-                    <div className="text-[20px]">
-                        <div className="py-[30px] underline">Join Discord</div>
-                    </div>
+                <div className="flex items-center">
+                    <a className="font-semibold text-lg font-lexend text-[#24223C] underline">Join Discord</a>
+                    <img className="inline ml-2 w-6 h-6" src="Chevron_Right.svg"></img>
                 </div>
             </div>
         </div>

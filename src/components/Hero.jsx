@@ -125,7 +125,7 @@ export default function Hero() {
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
                             <div className="relative -ml-[50px] -mt-72 bg-[#3BCABE] w-[194px] h-[194px] rounded-full flex">
-                                <img className="rounded-full justify-center items-center m-2" src="./images/image-13.png" alt=""></img>
+                                <img className="rounded-full justify-center items-center m-2" src="./images/h-1.png" alt=""></img>
                             </div>
                             
                         </div>
@@ -139,7 +139,7 @@ export default function Hero() {
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
                             <div className="relative -ml-[50px] -mt-80 bg-[#FA9D74] w-[194px] h-[194px] rounded-full flex">
-                                <img className="rounded-full justify-center items-center m-4" src="./images/image-14.png" alt=""></img>
+                                <img className="rounded-full justify-center items-center m-4" src="./images/h-2.png" alt=""></img>
                             </div>
                         </div>
 
@@ -152,7 +152,7 @@ export default function Hero() {
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
                             <div className="relative -ml-[20px] -mt-60 bg-[#F5D190] w-[125px] h-[125px] rounded-full flex">
-                                <img className="rounded-full justify-center items-center m-4" src="./images/image-12.png" alt=""></img>
+                                <img className="rounded-full justify-center items-center m-4" src="./images/h-3.png" alt=""></img>
                             </div>
                         </div>
                     </div>

@@ -3,8 +3,8 @@ export default function Main() {
         <div className="relative pt-[186px] min-[400px]:pt-24 overflow-hidden">
             <img src="dots.svg" alt="" className="absolute top-[140px] -left-[300px] scale-[2] min-[400px]:scale-100 min-[400px]:top-[70px] min-[400px]:-left-[330px] -z-10" />
             <img src="dots.svg" alt="" className="absolute bottom-[500px] -right-[320px] scale-[2] min-[400px]:scale-100 min-[400px]:bottom-[24px] min-[400px]:-right-[88px] -z-10 " />
-            <div className="flex flex-col gap-32 min-[400px]:flex-row mb-32 items-center">
-                <form action="" className="mx-4 min-[400px]:ml-16 lg:mx-20 font-inter p-8 bg-[#F9FCF4] flex-grow border-8">
+            <div className="flex flex-col gap-32 min-[400px]:gap-12 lg:gap-0 min-[400px]:flex-row mb-32 items-center">
+                <form action="" className="mx-4 min-[400px]:ml-16 lg:mx-20 font-inter p-8 bg-[#F9FCF4] flex-grow">
                     <div className="grid">
                         <div>
                             <label htmlFor="name" className="text-sm text-gray-400">Name</label>

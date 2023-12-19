@@ -35,7 +35,7 @@ export default function Main() {
                         <path d="M1 0V254" stroke="#D4D3E4" />
                     </svg>
                     <div className="ml-5">
-                        <h3 className="text-2xl font-lexend font-bold">Find us on socials</h3>
+                        <h3 className="text-2xl font-lexend font-bold text-[#24223C]">Find us on socials</h3>
                         <div className="flex flex-col gap-5 mt-4 text-lg font-inter">
                             <a href="http://">
                                 <div className="flex gap-4 items-center">

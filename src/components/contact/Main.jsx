@@ -40,7 +40,7 @@ export default function Main() {
                         <svg className="block min-[400px]:hidden" xmlns="http://www.w3.org/2000/svg" width="254" height="2" viewBox="0 0 254 2" fill="none">
                             <path d="M0 1L254 1" stroke="#D4D3E4" />
                         </svg>
-                        <div className="">
+                        <div>
                             <h3 className="text-2xl font-lexend font-bold text-[#24223C]">Find us on socials</h3>
                             <div className="flex flex-col gap-5 mt-4 text-lg font-inter">
                                 <a href="http://">

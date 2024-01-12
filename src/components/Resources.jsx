@@ -2,7 +2,7 @@ export default function Resources() {
     return (
         <div className="flex justify-center items-center mt-24 mb-10">
             <div className=" border-gradient flex p-[1px] rounded-md">
-                <div className=" lg:grid grid-cols-2 gap-4 w-[328px] lg:w-[940px] xl:w-[1141px] bg-[#FFFCF8] rounded-md">
+                <div className=" lg:grid grid-cols-2 gap-4 w-[300px] lg:w-[940px] xl:w-[1141px] bg-[#FFFCF8] rounded-md">
                     <div className="py-[40px] lg:py-10 lg:pl-10 flex">
                         <div className="text-center">
                             <div className="font-semibold font-inter text-2xl lg:mt-10 mb-4">

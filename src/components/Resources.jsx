@@ -11,9 +11,11 @@ export default function Resources() {
                             <div className="text-lg lg:mb-6">
                                 See our curated list of job listings, interview tips, and more!
                             </div>
-                            <button className=" text-[#24223C] border-gradient rounded-[100px] mt-[12px] p-[2px]">
-                                <div className="px-10 py-3 rounded-[100px] font-semibold bg-[#FEFDFF] text-lg">See More</div>
-                            </button>
+                            <a href="./resources">
+                                <button className=" text-[#24223C] border-gradient rounded-[100px] mt-[12px] p-[2px]">
+                                    <div className="px-10 py-3 rounded-[100px] font-semibold bg-[#FEFDFF] text-lg">See More</div>
+                                </button>
+                            </a>
                         </div>
                         <div className="hidden lg:block my-auto ml-12">
                             <svg xmlns="http://www.w3.org/2000/svg" width="2" height="205" viewBox="0 0 2 205" fill="none">

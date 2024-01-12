@@ -25,10 +25,9 @@ export default function Resources() {
                     </div>
                     <div className="lg:p-12">
                         <div class="lg:block hidden text-lg">
-                            <div className="py-[30px] underline">Resume/Cover Letter Guide</div>
-                            <div className="py-[30px] underline">Interview Prep</div>
-                            <div className="py-[30px] underline">Shoutout to Other Creators</div>
-                            <div></div>
+                            <div className="py-[30px] underline"><a href="https://www.indeed.com/career-advice/resumes-cover-letters/how-to-write-a-cover-letter" target="_blank" rel="noopener noreferrer">Resume/Cover Letter Guide</a></div>
+                            <div className="py-[30px] underline"><a href="https://www.indeed.com/career-advice/resumes-cover-letters/how-to-make-a-resume-with-examples" target="_blank" rel="noopener noreferrer">Resume Guide</a></div>
+                            <div className="py-[30px] underline"><a href="https://productschool.com/blog/interview-tips/the-ultimate-list-product-manager-interview-questions" target="_blank" rel="noopener noreferrer">Interview Prep</a></div>
                         </div>
                     </div>
                 </div>

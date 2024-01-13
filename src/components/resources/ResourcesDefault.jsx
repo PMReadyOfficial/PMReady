@@ -4,7 +4,7 @@ export default function ResourcesDefault({ resources, heading }) {
             <h1 className="header4">{heading}</h1>
             <ul className="pl-12 list-disc flex flex-col gap-4 mt-4 underline body1">
                 {resources.map((resource, index) => (
-                    <li key={index}><a href={resource.url}>{resource.name}</a></li>
+                    <li key={index}><a href={resource.url} target="_blank" rel="noopener noreferrer">{resource.name}</a></li>
                 ))}
             </ul>
         </div>

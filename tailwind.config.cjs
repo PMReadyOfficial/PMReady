@@ -10,6 +10,11 @@ module.exports = {
 				"inter": ["Inter", ...defaultTheme.fontFamily.sans],
 				"lexend": ["Lexend", ...defaultTheme.fontFamily.sans],
 			},
+			colors: {
+				customgreen100: "#F9FCF4",
+				customteal500: "#023849"
+			}
+
 		},
 	},
 	plugins: [],

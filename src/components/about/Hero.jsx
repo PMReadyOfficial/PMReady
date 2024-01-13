@@ -1,13 +1,13 @@
 export default function Hero() {
     return (
         <div className="flex flex-col">
-            <div className="mb-10">
+            <div className="mb-3 sm:mb-5 md:mg-8 lg:mb-10 ">
                 <div className="absolute box-gradient w-[895px] h-[424px] right-0"></div>
                 <div className="absolute rect-grad w-[700px] xl:w-[1160px] h-[12px] mt-[320px]"></div>
 
                 <div className="relative z-10 ml-32 ">
 
-                    <h1 className="my-32 text-4xl md:text-5xl lg:text-7xl font-bold leading-8 font-lexend text-[#24223C] pb-3">
+                    <h1 className="my-32 text-5xl md:text-6xl lg:text-7xl font-bold leading-8 font-lexend text-[#24223C] pb-3">
 
                         <div className="absolute z-0 -mt-[10px] ml-[400px] ">
                             <svg className="" xmlns="http://www.w3.org/2000/svg" width="46" height="37" viewBox="0 0 46 37" fill="none">
@@ -15,8 +15,12 @@ export default function Hero() {
                                 <path d="M43.7443 14.7292C42.7616 20.693 39.7126 25.7987 34.7815 28.6747C29.8503 31.5508 23.959 31.6683 18.3599 29.5463C19.3426 23.5825 22.3916 18.4768 27.3228 15.6007C32.254 12.7247 38.1452 12.6071 43.7443 14.7292Z" fill="#9ADB67" />
                             </svg>
                         </div>
-                        <span className="text-[#FA9D74]">Empowering</span>  current <br />
-                        <span className="sm:pt-24">and future PMs</span>
+
+                        <div className="my-2 lg:my-0">
+                            <span className="text-[#FA9D74] ">Empowering</span>  current <br />
+                        </div>
+
+                        <span className="pt-24">and future PMs</span>
                     </h1>
                 </div>
 
@@ -32,7 +36,7 @@ export default function Hero() {
                     </svg>
                 </div>
 
-                <div className="flex flex-col lg:flex-row  gap-16 relative ml-[140px] mx-[120px] mt-[109px] mb-20 items-center">
+                <div className="flex flex-col lg:flex-row gap-16 relative ml-[140px] mx-[120px] mt-[109px] mb-20 items-center">
                     <img className="max-w-[300px] min-[400px]:max-w-sm lg:max-w-[510px] rounded-br-[40px] object-scale-down " src="./images/image-10.jpeg" alt="" />
                     <div className="flex flex-col gap-4 text-[#24223C]">
                         <h2 className="text-4xl font-lexend font-bold">About Us</h2>

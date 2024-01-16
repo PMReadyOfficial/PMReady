@@ -57,6 +57,12 @@ export default function NewFooter() {
 
                         <div className="grid grid-cols-2 lg:inline-flex gap-4">
                             <a
+                                href="./about"
+                                className="text-white transition duration-300 block"
+                            >
+                                About
+                            </a>
+                            <a
                                 href="./resources"
                                 className="text-white transition duration-300 block"
                             >
@@ -75,12 +81,7 @@ export default function NewFooter() {
                                 Contact
                             </a>
 
-                            <a
-                                href="./about"
-                                className="text-white transition duration-300 block"
-                            >
-                                About
-                            </a>
+                            
                         </div>
 
                     </div>

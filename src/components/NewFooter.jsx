@@ -53,7 +53,7 @@ export default function NewFooter() {
                             <a href="mailto:pmready.official@gmail.com">pmready.official@gmail.com</a>
                         </p>
 
-                        <div className="inline-flex gap-4">
+                        <div className="grid grid-cols-2 lg:inline-flex gap-4">
                             <a
                                 href="./resources"
                                 className="text-white transition duration-300 block"

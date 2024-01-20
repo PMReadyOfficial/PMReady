@@ -1,6 +1,6 @@
 export default function ResourcesDefault({ resources, heading }) {
     return (
-        <div className="py-10 px-[60px] border-[1px] border-[#9ADB67] bg-[#F9FCF4] rounded-lg">
+        <div className=" py-[20px] lg:py-10 px-[20px] lg:px-[60px] border-[1px] border-[#9ADB67] bg-[#F9FCF4] rounded-lg">
             <h1 className="header4">{heading}</h1>
             <ul className="pl-12 list-disc flex flex-col gap-4 mt-4 underline body1">
                 {resources.map((resource, index) => (

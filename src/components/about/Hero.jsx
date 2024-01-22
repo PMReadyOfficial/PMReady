@@ -1,12 +1,12 @@
 export default function Hero() {
     return (
         <div className="flex flex-col">
-            <div className="mb-10">
-                <div className="absolute box-gradient lg:w-[895px] lg:h-[424px] right-0">
+            <div className="mb-10 relative">
+                <div className="absolute box-gradient w-[232px] h-full lg:w-[895px] right-0">
                    
                 </div>
 
-                <div className="absolute rect-grad w-[360px]lg:w-[700px] xl:w-[1160px] h-[12px] mt-[320px]">
+                <div className="absolute rect-grad w-[300px] lg:w-[700px] xl:w-[1160px] h-[12px] bottom-[20px] lg:bottom-[82px]">
 
                 </div>
 

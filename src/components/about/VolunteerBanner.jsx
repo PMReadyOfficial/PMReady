@@ -43,12 +43,12 @@ export default function VolunteerBanner() {
 
                 <div className="flex flex-row gap-2 block lg:hidden">
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
-                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full"></img>
+                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/macy.jpeg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Macy So</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Co-Founder</p>
                     </div>
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
-                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full"></img>
+                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/johnny.jpeg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Johnny Huang</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Co-Founder</p>
                     </div>
@@ -56,12 +56,12 @@ export default function VolunteerBanner() {
                 </div>
                 <div className="flex flex-row gap-2 block lg:hidden">
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
-                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full"></img>
+                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/catherine.jpeg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Catherine Tai</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Product Manager</p>
                     </div>
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
-                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full"></img>
+                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/lenin.jpeg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Lenin Kennedy</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Lead Software Engineer</p>
                     </div>
@@ -69,12 +69,12 @@ export default function VolunteerBanner() {
                 </div>
                 <div className="flex flex-row gap-2 block lg:hidden">
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
-                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full"></img>
+                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/yasvi.jpeg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Yasvi Patel</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Designer</p>
                     </div>
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
-                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full"></img>
+                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/jennifer.jpeg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Jennifer Im</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Designer</p>
                     </div>

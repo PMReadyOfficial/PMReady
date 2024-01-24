@@ -9,5 +9,4 @@ export default defineConfig({
     applyBaseStyles: false,
   }), react()],
   site: 'https://pmready.online',
-  // base: '/PMReady/',
 });

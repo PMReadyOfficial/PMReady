@@ -2,6 +2,63 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .header1 {
+        @apply text-5xl font-lexend font-bold;
+        line-height: 54px !important;
+    }
+    .header4 {
+        @apply text-2xl font-lexend font-bold;
+    }
+    .body1 {
+        @apply text-lg font-inter font-normal;
+    }
+}
+
 .border-gradient {
     background: linear-gradient(92.49deg, rgba(6, 183, 167, 0.6) 1.09%, rgba(140, 198, 63, 0.6) 25.34%, rgba(243, 198, 116, 0.6) 73.34%, rgba(252, 193, 168, 0.6) 99.41%);
+}
+
+.box-gradient {
+    /* opacity: 0.15; */
+    background: linear-gradient(92deg, rgba(6, 183, 167, 0.09) 1.09%, rgba(140, 198, 63, 0.09) 25.34%, rgba(243, 198, 116, 0.09) 73.34%, rgba(252, 193, 168, 0.09) 99.41%);
+}
+
+.group-2422 {
+    width: 180.107px;
+    height: 163.549px;
+    transform: rotate(8.149deg);
+    flex-shrink: 0;
+}
+
+.rect-grad {
+    background: var(--Gradient, linear-gradient(272deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
+}
+
+.rect-grad1 {
+    background: var(--Gradient, linear-gradient(2deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
+}
+
+.swiper-pagination {
+    position: static !important;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.comm-hero-grad {
+    opacity: 0.15;
+    background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
+}
+
+.contact-hero-grad {
+    opacity: 0.15;
+    background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+.op-one {
+    opacity: 1 !important;
 }

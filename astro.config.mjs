@@ -8,6 +8,6 @@ export default defineConfig({
   integrations: [tailwind({
     applyBaseStyles: false,
   }), react()],
-  site: 'https://pmready-git-dev-pmready.vercel.app',
+  site: 'https://pmready.online',
   // base: '/PMReady/',
 });

@@ -6,7 +6,7 @@ export default function ContactUs() {
                     <h1 className="text-center font-bold text-2xl lg:text-3xl font-lexend">Have additional <br className="lg:hidden"/><span className="text-orange-400">Questions?</span></h1>
                 </div>
 
-                <form action="https://formspree.io/f/mnqepadb" method="POST" className="mx-4 lg:mx-20 font-inter">
+                <form action="https://formspree.io/f/meqyarwd" method="POST" className="mx-4 lg:mx-20 font-inter">
                     <div className="grid lg:grid-cols-2 my-9">
                         <div className="lg:pr-4">
                             <label htmlFor="name" className="text-sm text-gray-400">Name</label>

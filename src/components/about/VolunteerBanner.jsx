@@ -18,7 +18,7 @@ export default function VolunteerBanner() {
                         <p className="font-inter text-lg mt-2">Co-Founder</p>
                     </div>
                     <div className="inline-block justify-center text-center w-[211px]">
-                        <img className="mx-auto block w-40 h-40 bg-[#D9D9D9] rounded-full" src="./images/catherine.jpeg"></img>
+                        <img className="mx-auto block w-40 h-40 bg-[#D9D9D9] rounded-full" src="./images/catherine.jpg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Catherine Tai</p>
                         <p className="font-inter text-lg mt-2">Product Manager</p>
                     </div>
@@ -56,7 +56,7 @@ export default function VolunteerBanner() {
                 </div>
                 <div className="flex flex-row gap-2 block lg:hidden">
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
-                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/catherine.jpeg"></img>
+                        <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/catherine.jpg"></img>
                         <p className="font-lexend text-lg font-semibold mt-2" >Catherine Tai</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Product Manager</p>
                     </div>

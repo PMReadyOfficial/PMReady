@@ -35,9 +35,9 @@ export default function Hero() {
                         </g>
                     </svg>
                 </div>
-                <div className="flex flex-row gap-16 relative ml-[140px] mx-[120px] mt-[109px] mb-20 items-center">
+                <div className="lg:flex flex-row gap-16 relative lg:ml-[140px] lg:mx-[120px] mt-[109px] mb-20 items-center">
                     <img className="max-w-[300px] min-[400px]:max-w-sm lg:max-w-[510px] rounded-br-[40px] object-scale-down " src="./images/image-10.jpeg" alt="" />
-                    <div className="flex flex-col gap-4 text-[#24223C]">
+                    <div className="lg:flex lg:flex-col gap-4 text-[#24223C]">
                         <h2 className="text-4xl font-lexend font-bold">About Us</h2>
                         <p className="text-lg font-inter xl:pr-40">PMReady is more than just a learning program; we're a network of like-minded individuals who share a common goal — to foster innovation and drive success in the world of technology and product development. So, who are we? We are your partners in your pursuit of excellence, your mentors in the art of Product Management, and your gateway to a world of possibilities.</p>
                     </div>

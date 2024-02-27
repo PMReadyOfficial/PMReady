@@ -1,5 +1,6 @@
 export default function Hero() {
     return (
+
         <div className="flex flex-col overflow-hidden">
             <div className="flex flex-col lg:flex-row justify-between">
                 <div className="flex items-start flex-col lg:flex-row lg:gap-10 mb-14">
@@ -9,6 +10,7 @@ export default function Hero() {
                         <h1 className="text-5xl lg:text-7xl font-bold text-[#24223C] pb-3">
                             Program <br />
                             <div className="absolute ml-[137px] lg:ml-[210px] mt-[12px] lg:mt-5 -z-40">
+
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13" fill="none">
                                     <path d="M0.132512 0.0223248C-0.33267 3.37063 0.418768 6.60782 2.51567 8.9709C4.61256 11.334 7.6613 12.3859 10.9247 12.1933C11.3899 8.84497 10.6385 5.60778 8.54157 3.2447C6.44468 0.881625 3.39594 -0.170277 0.132512 0.0223248Z" fill="#3BCABE" />
                                     <path d="M20.5435 0.0223248C21.0087 3.37063 20.2572 6.60782 18.1603 8.9709C16.0635 11.334 13.0147 12.3859 9.75129 12.1933C9.2861 8.84497 10.0375 5.60778 12.1344 3.2447C14.2313 0.881625 17.2801 -0.170277 20.5435 0.0223248Z" fill="#9ADB67" />
@@ -22,7 +24,9 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
+
                 <div className="mt-14 mr-3 hidden lg:block">
+
                     <svg className="-z-50" width="630" height="235" viewBox="0 0 630 235" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="7.5" cy="7.5" r="7.5" fill="#D7F5F2" />
                         <circle cx="42.5" cy="7.5" r="7.5" fill="#D7F5F2" />
@@ -115,7 +119,9 @@ export default function Hero() {
                         <circle cx="567.5" cy="227.5" r="7.5" fill="#D7F5F2" />
                         <circle cx="602.5" cy="227.5" r="7.5" fill="#D7F5F2" />
                     </svg>
+
                     <div className="flex flex-row ml-10">
+
                         <div>
                             <div className="relative -z-40 rect-grad1 w-[6px] h-[229px] -mt-[84px] ml-10 ">
 
@@ -125,7 +131,9 @@ export default function Hero() {
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
                             <div className="relative -ml-[50px] -mt-72 bg-[#3BCABE] w-[194px] h-[194px] rounded-full flex">
+
                                 <img className="rounded-full justify-center items-center m-2" src="./images/h-1.png" alt=""></img>
+
                             </div>
                             
                         </div>
@@ -139,7 +147,9 @@ export default function Hero() {
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
                             <div className="relative -ml-[50px] -mt-80 bg-[#FA9D74] w-[194px] h-[194px] rounded-full flex">
+
                                 <img className="rounded-full justify-center items-center m-4" src="./images/h-2.png" alt=""></img>
+
                             </div>
                         </div>
 
@@ -152,6 +162,7 @@ export default function Hero() {
                                 <path d="M73.9357 0.0804127C75.61 12.1409 72.9054 23.8011 65.3581 32.3127C57.8108 40.8244 46.8376 44.6133 35.0916 43.9196C33.4173 31.8591 36.1219 20.1989 43.6692 11.6873C51.2165 3.17557 62.1897 -0.61333 73.9357 0.0804127Z" fill="#9ADB67" />
                             </svg>
                             <div className="relative -ml-[20px] -mt-60 bg-[#F5D190] w-[125px] h-[125px] rounded-full flex">
+
                                 <img className="rounded-full justify-center items-center m-4" src="./images/h-3.png" alt=""></img>
                             </div>
                         </div>
@@ -270,6 +281,9 @@ export default function Hero() {
                         </div>
 
                     </div>
+
+
+
                 </div>
             </div>
             <div className="rect-grad w-full h-[12px] mb-4">

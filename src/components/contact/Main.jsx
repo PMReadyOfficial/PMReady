@@ -4,18 +4,24 @@ export default function Main() {
             <img src="dots.svg" alt="" className="absolute top-[140px] -left-[300px] scale-[2] min-[400px]:scale-100 min-[400px]:top-[70px] min-[400px]:-left-[330px] -z-10" />
             <img src="dots.svg" alt="" className="absolute bottom-[500px] -right-[320px] scale-[2] min-[400px]:scale-100 min-[400px]:bottom-[24px] min-[400px]:-right-[88px] -z-10 " />
             <div className="flex flex-col gap-32 min-[400px]:gap-12 lg:gap-0 min-[400px]:flex-row mb-32 items-center">
+
                 <form action="https://formspree.io/f/meqyarwd" method="POST" className="mx-4 min-[400px]:ml-16 lg:mx-20 font-inter p-8 bg-[#F9FCF4] flex-grow">
+
                     <div className="grid">
                         <div>
                             <label htmlFor="name" className="text-sm text-gray-400">Name</label>
                             <br />
+
                             <input type="text" id="name" name="name" className="w-full lg:w-[376px] border border-gray-400 p-3 rounded-md placeholder:font-inter placeholder:text-lg" placeholder="Name" />
+
                         </div>
 
                         <div className="mt-4">
                             <label htmlFor="email" className="text-sm text-gray-400">Email</label>
                             <br />
+
                             <input type="email" id="email" name="email" className="w-full lg:w-[376px] border border-gray-400 p-3 rounded-md placeholder:font-inter placeholder:text-lg" placeholder="Email@email.com" />
+
                         </div>
 
                     </div>
@@ -23,11 +29,13 @@ export default function Main() {
                     <div className="font-inter mt-5">
                         <label htmlFor="message" className="text-sm text-gray-400">Message</label>
                         <br />
+
                         <textarea id="message" name="message" className="w-full border border-gray-400 p-3 rounded-md h-40 placeholder:font-inter placeholder:text-lg" placeholder="Message" />
                     </div>
 
                     <div className="flex justify-end my-4">
                         <button type="submit" className="w-full lg:w-52 py-3 px-7 rounded-full bg-customteal500">
+
                             <span className="font-bold text-white text-lg font-lexend">Send Message</span>
                         </button>
                     </div>

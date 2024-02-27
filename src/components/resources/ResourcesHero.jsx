@@ -12,13 +12,15 @@ function SearchBar() {
 
 function Hero() {
     return (
-        <div className="flex mt-20 mx-32 content-center justify-center gap-5">
-            <div className="w-[500px] text-center shrink flex flex-col gap-5">
-                <h1 className="header1">Explore <p className="text-[#FA9D74] inline ">Resources</p></h1>
-                <p className="body1">See our curated list of job listings, interview tips, and more!</p>
-                <SearchBar className="mb-[60px] max-w-[600px]" />
+
+        <div className="flex mt-20 mx-[16px] lg:mx-32 content-center justify-center gap-5">
+            <div className="  lg:w-[500px] text-center shrink flex flex-col gap-5">
+                <h1 className="text-left header1 text-[32px] lg:text-[48px] ">Explore <p className="text-[#FA9D74] inline ">Resources</p></h1>
+                <p className="text-left body1">See our curated list of job listings, interview tips, and more!</p>
+                <SearchBar className=" mb-[60px] max-w-[328px] lg:max-w-[600px]" />
             </div>
-            <div className="flex-none">
+            <div className="hidden lg:block flex-none">
+
                 <img className="w-[510px] h-[299px] " src="Rectangle6377.png"></img>
             </div>
         </div>
@@ -54,7 +56,9 @@ export default function ResourcesHero() {
     return (
         <div>
             <Hero />
-            <div className="my-16  mx-[120px] flex flex-col gap-10">
+
+            <div className="my-16 mx-[16px] lg:mx-[120px] flex flex-col gap-10">
+
                 <ResourcesDefault resources={resources1} heading={heading1} />
                 <ResourcesVariant resources={resources2} heading={heading2} />
                 <ResourcesDefault resources={resources3} heading={heading3} />

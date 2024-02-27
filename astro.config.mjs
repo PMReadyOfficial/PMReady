@@ -8,6 +8,6 @@ export default defineConfig({
   integrations: [tailwind({
     applyBaseStyles: false,
   }), react()],
-  site: 'https://PMReadyOfficial.github.io',
-  base: '/PMReady/',
+  site: 'https://pmready.online',
+  // base: '/PMReady/',
 });

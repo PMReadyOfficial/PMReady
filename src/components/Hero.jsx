@@ -20,7 +20,7 @@ export default function Hero() {
                         </h1>
 
                         <div className="CTA flex gap-3 mt-10 lg:text-2xl font-semibold">
-                            <button className="px-10 py-3 bg-[#023849] border-4 text-[#FEFDFF] border-[#023849] rounded-[100px]">Join us on Discord</button>
+                            <button className="px-10 py-3 bg-[#023849] border-4 text-[#FEFDFF] border-[#023849] rounded-[100px]"><a href = "https://discord.gg/PnyMh9325g">Join us on Discord</a></button>
                         </div>
                     </div>
                 </div>

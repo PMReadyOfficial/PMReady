@@ -22,7 +22,7 @@ function Discord() {
                     Ask questions, share, and network on our detailed <br className='hidden lg:block' /> Discord server
                 </div>
                 <div className="flex items-center">
-                    <a className="font-semibold text-lg font-lexend text-[#24223C] underline">Join Discord</a>
+                    <a className="font-semibold text-lg font-lexend text-[#24223C] underline"><a href = "https://discord.gg/PnyMh9325g">Join Discord</a></a>
                     <img className="inline ml-2 w-6 h-6" src="Chevron_Right.svg"></img>
                 </div>
             </div>

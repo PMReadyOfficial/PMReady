@@ -125,7 +125,7 @@ export default function NewFooter() {
                                     </svg>
                                 </a>
                                 {/* discord */}
-                                <a href="http://" target="_blank" rel="noopener noreferrer" className="disabled">
+                                <a href="https://discord.gg/PnyMh9325g" target="_blank" rel="noopener noreferrer" >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="40"

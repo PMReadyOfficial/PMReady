@@ -5,18 +5,16 @@ export default function Hero() {
                 <div className="flex items-start flex-col lg:flex-row lg:gap-10 mb-14">
                     <div className="ml-3 min-[400px]:ml-10 lg:ml-32 mt-10 lg:mt-20 font-lexend">
                         <h3 className="text-lg lg:text-2xl font-bold text-[#9C9AB7]">We are a one-stop shop for</h3>
-
                         <h1 className="text-5xl lg:text-7xl font-bold text-[#24223C] pb-3">
-                            Program <br />
+                        <span className="line-program typewriter-program">Program</span> <br />
                             <div className="absolute ml-[137px] lg:ml-[210px] mt-[12px] lg:mt-5 -z-40">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="13" viewBox="0 0 21 13" fill="none">
                                     <path d="M0.132512 0.0223248C-0.33267 3.37063 0.418768 6.60782 2.51567 8.9709C4.61256 11.334 7.6613 12.3859 10.9247 12.1933C11.3899 8.84497 10.6385 5.60778 8.54157 3.2447C6.44468 0.881625 3.39594 -0.170277 0.132512 0.0223248Z" fill="#3BCABE" />
                                     <path d="M20.5435 0.0223248C21.0087 3.37063 20.2572 6.60782 18.1603 8.9709C16.0635 11.334 13.0147 12.3859 9.75129 12.1933C9.2861 8.84497 10.0375 5.60778 12.1344 3.2447C14.2313 0.881625 17.2801 -0.170277 20.5435 0.0223248Z" fill="#9ADB67" />
                                 </svg>
                             </div>
-                            <span className="block text-[#FA9D74] pt-2">Management</span>
+                            <span className="line-managment typewriter-management block text-[#FA9D74] pt-2">Management</span>
                         </h1>
-
                         <div className="CTA flex gap-3 mt-10 lg:text-2xl font-semibold">
                             <button className="px-10 py-3 bg-[#023849] border-4 text-[#FEFDFF] border-[#023849] rounded-[100px]">Join us on Discord</button>
                         </div>

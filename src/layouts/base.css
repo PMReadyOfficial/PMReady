@@ -62,3 +62,27 @@
 .op-one {
     opacity: 1 !important;
 }
+
+/*dk changes below*/
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blinkCursor {
+    from { border-right-color: rgba(255, 255, 255, 0.75); }
+  }
+
+.typewriter-program, .typewriter-management {
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not visible until the animation */
+    animation: 
+      typewriter 3s steps(80) 1s 1 normal both;
+
+    line-height: 1.2;
+  }
+  
+  /* Adjust for "Management" to delay the start of its animation */
+  .typewriter-management {
+    animation-delay: 3s; /* Adjust timings as needed */
+  }

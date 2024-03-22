@@ -21,6 +21,9 @@ const Header = () => {
                         <li className="hidden lg:block p-3">
                             <a href="./about" className="hover:underline decoration-2">About</a>
                         </li>
+                        <li className="hidden lg:block p-3">
+                            <a href="https://docs.google.com/document/d/1t3kpIMlzpOnv5CQD8Ihw8dpa3xEihp1b8WtaKlVXQlc/edit" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-2">Get Involved</a>
+                        </li>
                         <li className="hidden lg:block p-3 ">
                             <a href="./resources" className="hover:underline decoration-2">Resources</a>
                         </li>

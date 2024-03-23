@@ -19,8 +19,8 @@ export default function StartYourChapter() {
                 <div className="mx-2.5 lg:mx-5 my-auto">
                     <img src="images/image-9.jpeg" alt="" />
                 </div>
-                <div className="mx-2.5 lg:mx-5 my-auto">
-                    <img src="tesla.png" alt="Tesla logo" />
+                <div class="mx-2.5 lg:mx-5 my-auto w-3/4 h-auto">
+                    <img src="images/Boston_University_Terriers_logo.svg" alt="Boston University logo"/>
                 </div>
                 <div className="mx-2.5 lg:mx-5 my-auto">
                     <img src="images/image-15.jpeg" alt="" />

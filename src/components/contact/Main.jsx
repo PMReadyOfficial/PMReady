@@ -50,23 +50,8 @@ export default function Main() {
                         </svg>
                         <div>
                             <h3 className="text-2xl font-lexend font-bold text-[#24223C]">Find us on socials</h3>
-                            <div className="flex flex-col gap-5 mt-4 text-lg font-inter">
+                            <div className="flex flex-col gap-7 mt-4 text-lg font-inter">
 
-                                <a href="http://" className="disabled">
-                                    <div className="flex gap-4 items-center">
-                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <g clip-path="url(#clip0_3794_8212)">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M28.7086 12.4764C29.6915 12.7418 30.4641 13.5164 30.7252 14.4982C31.2004 16.28 31.2004 20 31.2004 20C31.2004 20 31.2004 23.72 30.7252 25.5018C30.4605 26.4873 29.6879 27.2618 28.7086 27.5236C26.9313 28 19.8004 28 19.8004 28C19.8004 28 12.6731 28 10.8922 27.5236C9.90927 27.2582 9.13669 26.4836 8.87554 25.5018C8.40039 23.72 8.40039 20 8.40039 20C8.40039 20 8.40039 16.28 8.87554 14.4982C9.14032 13.5127 9.91289 12.7382 10.8922 12.4764C12.6731 12 19.8004 12 19.8004 12C19.8004 12 26.9313 12 28.7086 12.4764ZM23.4456 20L17.5226 23.4291V16.5709L23.4456 20Z" fill="#24223C" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_3794_8212">
-                                                    <rect width="40" height="40" fill="white" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                        <p>@pmready-global</p>
-                                    </div>
-                                </a>
 
                                 <a href="https://www.instagram.com/pmready.official/" className="disabled">
                                     <div className="flex gap-4 items-center">

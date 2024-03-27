@@ -24,6 +24,11 @@ export default function VolunteerBanner() {
                         <p className="font-lexend text-lg font-semibold mt-2" >Catherine Tai</p>
                         <p className="font-inter text-lg mt-2">Product Manager</p>
                     </div>
+                    <div className="inline-block justify-center text-center w-[211px]">
+                        <img className="mx-auto block w-40 h-40 rounded-full" src="./images/Arleen_Alcaraz_cano.jpeg"></img>
+                        <p className="font-lexend text-lg font-semibold mt-2" >Arleen Alcaraz-Cano</p>
+                        <p className="font-inter text-lg mt-2">Product Manager</p>
+                    </div>
                 </div>
                 <div className="flex flex-row gap-5 hidden lg:block">
                     <div className="inline-block justify-center text-center w-[211px]">
@@ -68,6 +73,7 @@ export default function VolunteerBanner() {
                         <p className="font-lexend text-lg font-semibold mt-2" >Catherine Tai</p>
                         <p className="font-inter text-base min-[400px]:text-lg mt-2">Product Manager</p>
                     </div>
+                    
                     <div className="inline-block justify-center text-center w-[150px] min-[400px]:w-[211px]">
 
                         <img className="mx-auto block w-[107px] h-[107px] min-[400px]:w-40 min-[400px]:h-40 bg-[#D9D9D9] rounded-full" src="./images/lenin.jpeg"></img>

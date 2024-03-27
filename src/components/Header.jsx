@@ -25,8 +25,12 @@ const Header = () => {
                 </div>
                 <div id="menu" className="flex flex-grow justify-end z-20 font-inter text-[#24223C]">
                     <ul className="flex gap-8 items-center text-lg">
+                        
                         <li className="hidden lg:block p-3">
                             <a href="/about" className={isActive('about')}>About</a>
+                        </li>
+                        <li className="hidden lg:block p-3">
+                            <a href="https://docs.google.com/document/d/1t3kpIMlzpOnv5CQD8Ihw8dpa3xEihp1b8WtaKlVXQlc/edit?usp=sharing" className={isActive('about')}>Get Involved</a>
                         </li>
                         <li className="hidden lg:block p-3 ">
                             <a href="/resources" className={isActive('resources')}>Resources</a>

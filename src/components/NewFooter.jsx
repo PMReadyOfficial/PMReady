@@ -94,7 +94,7 @@ export default function NewFooter() {
                             <div className="flex">
 
                                 {/* instagram */}
-                                <a href="https://www.instagram.com/pmready.official/" target="_blank" rel="noopener noreferrer" className="disabled">
+                                <a href="https://www.instagram.com/pmready.official/" target="_blank" rel="noopener noreferrer">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="40"
@@ -124,7 +124,7 @@ export default function NewFooter() {
                                     </svg>
                                 </a>
                                 {/* linkedin */}
-                                <a href="http://" target="_blank" rel="noopener noreferrer" className="disabled">
+                                <a href="https://www.linkedin.com/company/pmready-global/" target="_blank" rel="noopener noreferrer" >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="40"

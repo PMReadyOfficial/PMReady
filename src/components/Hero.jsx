@@ -48,7 +48,7 @@ export default function Hero() {
                     <div className="ml-3 min-[400px]:ml-10 lg:ml-32 mt-10 lg:mt-20 font-lexend">
                         <h3 className="text-lg lg:text-2xl font-bold text-[#9C9AB7]">We are a one-stop shop for</h3>
                         <h1 className="text-5xl lg:text-7xl font-bold text-[#24223C] pb-3">
-                            <span >Program</span> <br />
+                            <span >Product</span> <br />
 
                             <span className="block text-[#FA9D74] pt-2">Management</span>
                         </h1>

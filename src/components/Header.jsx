@@ -30,7 +30,7 @@ const Header = () => {
                             <a href="/about" className={isActive('about')}>About</a>
                         </li>
                         <li className="hidden lg:block p-3">
-                            <a href="https://docs.google.com/document/d/1t3kpIMlzpOnv5CQD8Ihw8dpa3xEihp1b8WtaKlVXQlc/edit?usp=sharing" className={isActive('about')}>Get Involved</a>
+                            <a href="https://docs.google.com/document/d/1t3kpIMlzpOnv5CQD8Ihw8dpa3xEihp1b8WtaKlVXQlc/edit?usp=sharing" className={isActive('get involved')}>Get Involved</a>
                         </li>
                         <li className="hidden lg:block p-3 ">
                             <a href="/resources" className={isActive('resources')}>Resources</a>

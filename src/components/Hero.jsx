@@ -2,53 +2,33 @@ export default function Hero() {
     return (
         <div className="flex flex-col overflow-hidden">
             <style>{`
-                @keyframes typewriter {
-                    from { width: 0; }
-                    to { width: 100%; }
-                }
-
-                @keyframes blinkCursor {
-                    0% { border-color: transparent; }
-                    50% { border-color: rgba(0, 0, 0, 0.75); }
-                    100% { border-color: transparent; }
-                }
-
-                .typewriter-program, .typewriter-management {
-                    display: inline-block;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    letter-spacing: normal; /* Reset to default */
-                    animation: typewriter 2.5s steps(40) 1s 1 normal both,
-                               blinkCursor 500ms steps(40) infinite;
-                }
-
-                .typewriter-program {
-                    display: inline-block;
-                    overflow: hidden;
-                    line-height: normal;
-                    white-space: nowrap;
-                    letter-spacing: normal;
-                    animation: typewriter 2.5s steps(40) 1s 1 normal both,
-                               blinkCursor 500ms steps(40) infinite;
-                }
                 
-                .typewriter-management {
+                @keyframes typing {
+                    from { width: 0; }
+                    to { width: auto; }
+                  }
+                
+                  .typewriter {
                     display: inline-block;
                     overflow: hidden;
                     white-space: nowrap;
-                    letter-spacing: normal;
-                    margin-top: -0.5em;
-                    line-height: normal;
-                    animation: typewriter 2.5s steps(40) 3.5s 1 normal both,
-                               blinkCursor 500ms steps(40) infinite;
-                }
+                    border-right: 2px solid; /* simulate cursor */
+                  }
+                
+                  .typewriter span {
+                    display: inline-block;
+                    width: 0;
+                    animation: typing 1s steps(8, end);
+                  }
+             
+                   
             `}</style>
             <div className="flex flex-col lg:flex-row justify-between">
                 <div className="flex items-start flex-col lg:flex-row lg:gap-10 mb-14">
                     <div className="ml-3 min-[400px]:ml-10 lg:ml-32 mt-10 lg:mt-20 font-lexend">
                         <h3 className="text-lg lg:text-2xl font-bold text-[#9C9AB7]">We are a one-stop shop for</h3>
                         <h1 className="text-5xl lg:text-7xl font-bold text-[#24223C] pb-3">
-                            <span >Product</span> <br />
+                            <span>Product</span> <br />
 
                             <span className="block text-[#FA9D74] pt-2">Management</span>
                         </h1>

@@ -1,6 +1,6 @@
 import IndividualTestimonial from "./IndividualTestimonial";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay, Mousewheel} from 'swiper/modules';
 
 
 import 'swiper/css';
@@ -40,14 +40,19 @@ export default function Testimonial() {
                     "--swiper-pagination-bullet-size": "8px",
                     "--swiper-pagination-bullet-horizontal-gap": "8px"
                 }}
-                initialSlide="1"
+                initialSlide="0"
                 loop={true}
                 centeredSlides={true}
+                autoplay={{
+                    delay: 2500, 
+                    disableOnInteraction: false,
+                }}
+                mousewheel={true} // Enable mousewheel control.
                 
                 pagination={{
                     clickable: true,
                 }}
-                modules={[Pagination]}
+                modules={[Pagination, Autoplay, Mousewheel]}
                 slidesPerView={3}
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}

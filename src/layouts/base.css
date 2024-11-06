@@ -62,3 +62,48 @@
 .op-one {
     opacity: 1 !important;
 }
+
+/* Typography Scale for HTML Headers */
+
+h1 {
+  font-size: 4.5rem; /* 72px */
+  line-height: 5.75rem; /* 92px */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 3rem; /* 48px */
+  line-height: 3.375rem; /* 54px */
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.75rem; /* 44px */
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 2rem; /* 32px */
+  line-height: 2.25rem; /* 36px */
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.5rem; /* 24px */
+  font-weight: 600; /* Semibold */
+}
+
+.button-label {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  font-weight: normal;
+}
+

@@ -1,3 +1,5 @@
+import { MoveRight } from "lucide-react"
+
 export default function Learning() {
   return (
     <div className="relative items-center justify-center py-10">
@@ -12,7 +14,7 @@ export default function Learning() {
           <p className="font-inter text-[color:var(--color-dark-600,#24223C)] text-lg not-italic font-normal leading-7 my-5">
             The program is free, and will be made of virtual meetings, case studies, guest lectures, and even a small desing-your-own product pitch at the end of it all.
           </p>
-          <button className="px-8 py-2 border-2 text-[#FA9D74] border-[#FA9D74] rounded-full font-bold">Learn More</button>
+          <button className="flex flex-row align-baseline px-8 py-2 border-2 text-[#FA9D74] border-[#FA9D74] rounded-full font-bold">Learn More<MoveRight className="ml-2" /></button>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-5 w-full items-center lg:justify-center mt-[160px]">
@@ -35,7 +37,7 @@ export default function Learning() {
           <p className="font-inter text-[color:var(--color-dark-600,#24223C)] text-lg not-italic font-normal leading-7 my-5">
             The program is free, and will be made of virtual meetings, case studies, guest lectures, and even a small desing-your-own product pitch at the end of it all.
           </p>
-          <button className="px-8 py-2 border-2 text-[#FA9D74] border-[#FA9D74] rounded-full font-bold">Join Discord</button>
+          <button className="flex flex-row px-8 py-2 border-2 text-[#FA9D74] border-[#FA9D74] rounded-full font-bold">Join Discord<MoveRight className="ml-2" /></button>
         </div>
       </div>
     </div>

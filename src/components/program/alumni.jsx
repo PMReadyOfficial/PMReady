@@ -12,7 +12,7 @@ export default function Alumni() {
       <h3 className="text-center">What our past Alumni have to say</h3>
       <div className="flex flex-row flex-wrap justify-evenly mt-5">
         {alumniWisdom.map((alumni) => (
-          <div className="max-w-sm bg-white rounded-lg shadow-lg p-6 text-center flex flex-col items-center space-y-4 m-4">
+          <div className="max-w-sm bg-white rounded-lg shadow-lg p-12 text-center flex flex-col items-center space-y-4 m-4">
             {/* Profile Image */}
             <img
               src="https://picsum.photos/200" /* Replace with actual image URL */
@@ -27,10 +27,10 @@ export default function Alumni() {
             </div>
 
             {/* Testimonial Text */}
-            <div className="text-gray-700 text-base italic">
-              <p className="text-teal-500 text-2xl">&ldquo;</p>
+            <div className="relative text-gray-700 text-base italic">
+              <p className="absolute -left-2 -top-2 text-teal-500 text-2xl">&ldquo;</p>
               <p> {alumni.insight}</p >
-              <p className="text-teal-500 text-2xl">&rdquo;</p>
+              <p className="absolute -right-2 -top-2 text-teal-500 text-2xl">&rdquo;</p>
             </div>
           </div>
         ))}

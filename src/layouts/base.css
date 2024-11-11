@@ -3,62 +3,124 @@
 @tailwind utilities;
 
 @layer components {
-    .header1 {
-        @apply text-5xl font-lexend font-bold;
-        line-height: 54px !important;
-    }
-    .header4 {
-        @apply text-2xl font-lexend font-bold;
-    }
-    .body1 {
-        @apply text-lg font-inter font-normal;
-    }
+  
+
+  .header4 {
+    @apply text-2xl font-lexend font-bold;
+  }
+
+  .body1 {
+    @apply text-lg font-inter font-normal;
+  }
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px
 }
 
 .border-gradient {
-    background: linear-gradient(92.49deg, rgba(6, 183, 167, 0.6) 1.09%, rgba(140, 198, 63, 0.6) 25.34%, rgba(243, 198, 116, 0.6) 73.34%, rgba(252, 193, 168, 0.6) 99.41%);
+  background: linear-gradient(92.49deg, rgba(6, 183, 167, 0.6) 1.09%, rgba(140, 198, 63, 0.6) 25.34%, rgba(243, 198, 116, 0.6) 73.34%, rgba(252, 193, 168, 0.6) 99.41%);
 }
 
 .box-gradient {
-    /* opacity: 0.15; */
-    background: linear-gradient(92deg, rgba(6, 183, 167, 0.09) 1.09%, rgba(140, 198, 63, 0.09) 25.34%, rgba(243, 198, 116, 0.09) 73.34%, rgba(252, 193, 168, 0.09) 99.41%);
+  /* opacity: 0.15; */
+  background: linear-gradient(92deg, rgba(6, 183, 167, 0.09) 1.09%, rgba(140, 198, 63, 0.09) 25.34%, rgba(243, 198, 116, 0.09) 73.34%, rgba(252, 193, 168, 0.09) 99.41%);
 }
 
 .group-2422 {
-    width: 180.107px;
-    height: 163.549px;
-    transform: rotate(8.149deg);
-    flex-shrink: 0;
+  width: 180.107px;
+  height: 163.549px;
+  transform: rotate(8.149deg);
+  flex-shrink: 0;
 }
 
 .rect-grad {
-    background: var(--Gradient, linear-gradient(272deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
+  background: var(--Gradient, linear-gradient(272deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
 }
 
 .rect-grad1 {
-    background: var(--Gradient, linear-gradient(2deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
+  background: var(--Gradient, linear-gradient(2deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
 }
 
 .swiper-pagination {
-    position: static !important;
-    margin-top: 20px;
-    margin-bottom: 50px;
+  position: static !important;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .comm-hero-grad {
-    opacity: 0.15;
-    background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
+  opacity: 0.15;
+  background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
 }
 
 .contact-hero-grad {
-    opacity: 0.15;
-    background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
+  opacity: 0.15;
+  background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
 }
 
 .disabled {
-    pointer-events: none;
-    cursor: default;
+  pointer-events: none;
+  cursor: default;
 }
+
 .op-one {
-    opacity: 1 !important;
+  opacity: 1 !important;
+}
+
+/* Typography Scale for HTML Headers */
+
+
+
+h2 {
+  font-size: 3rem;
+  /* 48px */
+  line-height: 3.375rem;
+  /* 54px */
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2.25rem;
+  /* 36px */
+  line-height: 2.75rem;
+  /* 44px */
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 2rem;
+  /* 32px */
+  line-height: 2.25rem;
+  /* 36px */
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.5rem;
+  /* 24px */
+  line-height: 2rem;
+  /* 32px */
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 1.125rem;
+  /* 18px */
+  line-height: 1.5rem;
+  /* 24px */
+  font-weight: 600;
+  /* Semibold */
+}
+
+.button-label {
+  font-size: 0.875rem;
+  /* 14px */
+  line-height: 1.25rem;
+  /* 20px */
+  font-weight: normal;
 }

@@ -15,9 +15,9 @@ export default function Alumni() {
           <div className="max-w-sm bg-white rounded-lg shadow-lg p-12 text-center flex flex-col items-center space-y-4 m-4">
             {/* Profile Image */}
             <img
-              src="https://picsum.photos/200" /* Replace with actual image URL */
-              alt={alumni.name}
-              className="w-36 h-36 rounded-full object-cover"
+              src="" /* Replace with actual image URL */
+              alt={""}
+              className="w-36 h-36 rounded-full object-cover bg-gray-300"
             />
 
             {/* Name and Position */}

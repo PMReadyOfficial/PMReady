@@ -3,21 +3,24 @@ export default function ContactUs() {
         <div className='bg-customgreen100 py-16 my-10'>
             <div className="lg:mx-40 ">
                 <div>
-                    <h1 className="text-center font-bold text-2xl lg:text-3xl font-lexend">Have additional <br className="lg:hidden"/><span className="text-orange-400">Questions?</span></h1>
+
+                    <h1 className="text-center font-bold text-2xl lg:text-3xl font-lexend">Have Additional <br className="lg:hidden"/><span className="text-orange-400">Questions?</span></h1>
                 </div>
 
-                <form action="https://formspree.io/f/meqyarwd" method="POST" className="mx-4 lg:mx-20 font-inter">
+                <form action="" className="mx-4 lg:mx-20 font-inter">
                     <div className="grid lg:grid-cols-2 my-9">
                         <div className="lg:pr-4">
                             <label htmlFor="name" className="text-sm text-gray-400">Name</label>
                             <br />
-                            <input type="text" id="name" name="name" className="w-full border border-gray-400 p-3 rounded-md placeholder:font-inter placeholder:text-lg" placeholder="Name" />
+
+                            <input type="text" id="name" className="w-full border border-gray-400 p-3 rounded-md placeholder:font-inter placeholder:text-lg" placeholder="Name" />
                         </div>
 
-                        <div className="my-4 lg:pl-4">
+                        <div className="lg:pl-4">
                             <label htmlFor="email" className="text-sm text-gray-400">Email</label>
                             <br />
-                            <input type="email" id="email" name="email" className="w-full border border-gray-400 p-3 rounded-md placeholder:font-inter placeholder:text-lg" placeholder="Email@email.com" />
+                            <input type="email" id="email" className="w-full border border-gray-400 p-3 rounded-md placeholder:font-inter placeholder:text-lg" placeholder="Email@email.com" />
+
                         </div>
 
                     </div>
@@ -25,11 +28,13 @@ export default function ContactUs() {
                     <div className="font-inter">
                         <label htmlFor="message" className="text-sm text-gray-400">Message</label>
                         <br />
-                        <textarea id="message" name="message" className="w-full border border-gray-400 p-3 rounded-md h-40 placeholder:font-inter placeholder:text-lg" placeholder="Message" />
+
+                        <textarea id="message" className="w-full border border-gray-400 p-3 rounded-md h-40 placeholder:font-inter placeholder:text-lg" placeholder="Message" />
                     </div>
 
                     <div className="flex justify-end my-4">
-                        <button type="submit" className="w-full lg:w-52 py-3 px-7 rounded-full bg-customteal500">
+                        <button className="w-full lg:w-52 py-3 px-7 rounded-full bg-customteal500">
+
                             <span className="font-bold text-white text-lg font-lexend">Send Message</span>
                         </button>
                     </div>

@@ -1,39 +1,22 @@
-export default function Hero() {
+export default function ProgramHero() {
     return (
         <div className="flex flex-col overflow-hidden">
-            <style>{`
-                
-                @keyframes typing {
-                    from { width: 0; }
-                    to { width: auto; }
-                  }
-                
-                  .typewriter {
-                    display: inline-block;
-                    overflow: hidden;
-                    white-space: nowrap;
-                    border-right: 2px solid; /* simulate cursor */
-                  }
-                
-                  .typewriter span {
-                    display: inline-block;
-                    width: 0;
-                    animation: typing 1s steps(8, end);
-                  }
-             
-                   
-            `}</style>
             <div className="flex flex-col lg:flex-row justify-between">
                 <div className="flex items-start flex-col lg:flex-row lg:gap-10 mb-14">
-                    <div className="ml-3 min-[400px]:ml-10 lg:ml-32 mt-10 lg:mt-20 font-lexend">
-                        <h3 className="text-lg lg:text-2xl font-bold text-[#9C9AB7]">We are a one-stop shop for</h3>
-                        <h1 className="text-5xl lg:text-7xl font-bold text-[#24223C] pb-3">
-                            <span className="text-5xl lg:text-7xl">Product</span> <br />
-
-                            <span className="text-5xl lg:text-7xl block text-[#FA9D74] pt-2">Management</span>
+                    <div className="ml-3 min-[400px]:ml-10 lg:ml-32 mt-10 lg:mt-20 font-lexend flex flex-col gap-4">
+                        <h1 className="text-lg lg:text-4xl font-semibold">
+                            Learn product management <br></br>
+                            while making a <span className="text-[#FA9D74] text-4xl font-semibold ">real difference</span> 
                         </h1>
-                        <div className="CTA flex gap-3 mt-10 lg:text-2xl font-semibold">
-                            <button className="px-10 py-3 bg-[#023849] border-4 text-[#FEFDFF] border-[#023849] rounded-[100px]">Join us on Discord</button>
+                        <h3 className="text-lg lg:text-xl">
+                        A fully remote product fellowship program in the Fall where <br></br>
+                        students in undergraduate programs can work with startups to <br></br>
+                        gain real world experience.
+                        </h3>
+                        <p className="text-[#807D7B]">*Application is not open at the moment.</p>
+                        
+                        <div className="CTA flex gap-3 mt-10 lg:text-lg font-semibold">
+                            <button className="px-8 py-2  border-4 text-[#FA9D74] border-[#FA9D74] rounded-full">Learn More</button>
                         </div>
                     </div>
                     </div>

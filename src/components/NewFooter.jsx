@@ -92,25 +92,9 @@ export default function NewFooter() {
                         <div className="mr-6 mb-4 sm:mb-0">
 
                             <div className="flex">
-                                {/* youtube */}
-                                <a href="http://" target="_blank" rel="noopener noreferrer" className="disabled">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        width="40"
-                                        height="40"
-                                        viewBox="0 0 40 40"
-                                        fill="none"
-                                    >
-                                        <path
-                                            fill-rule="evenodd"
-                                            clip-rule="evenodd"
-                                            d="M28.7082 12.4764C29.6911 12.7418 30.4637 13.5164 30.7249 14.4982C31.2 16.28 31.2 20 31.2 20C31.2 20 31.2 23.72 30.7249 25.5018C30.4601 26.4873 29.6875 27.2618 28.7082 27.5236C26.9309 28 19.8 28 19.8 28C19.8 28 12.6728 28 10.8918 27.5236C9.9089 27.2582 9.13633 26.4836 8.87518 25.5018C8.40002 23.72 8.40002 20 8.40002 20C8.40002 20 8.40002 16.28 8.87518 14.4982C9.13995 13.5127 9.91253 12.7382 10.8918 12.4764C12.6728 12 19.8 12 19.8 12C19.8 12 26.9309 12 28.7082 12.4764ZM23.4453 20L17.5222 23.4291V16.5709L23.4453 20Z"
-                                            fill="#FEFDFF"
-                                        />
-                                    </svg>
-                                </a>
+
                                 {/* instagram */}
-                                <a href="http://" target="_blank" rel="noopener noreferrer" className="disabled">
+                                <a href="https://www.instagram.com/pmready.official/" target="_blank" rel="noopener noreferrer">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="40"
@@ -125,7 +109,7 @@ export default function NewFooter() {
                                     </svg>
                                 </a>
                                 {/* discord */}
-                                <a href="http://" target="_blank" rel="noopener noreferrer" className="disabled">
+                                <a href="https://discord.gg/PnyMh9325g" target="_blank" rel="noopener noreferrer" >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="40"
@@ -140,7 +124,7 @@ export default function NewFooter() {
                                     </svg>
                                 </a>
                                 {/* linkedin */}
-                                <a href="http://" target="_blank" rel="noopener noreferrer" className="disabled">
+                                <a href="https://www.linkedin.com/company/pmready-global/" target="_blank" rel="noopener noreferrer" >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         width="40"

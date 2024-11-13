@@ -4,12 +4,19 @@ import Header from "../components/Header";
 import ResourcesHero from "../components/resources/ResourcesHero";
 import NewFooter from "../components/NewFooter";
 import ProgramHero from "../components/program/ProgramHero";
+import GetInvolvedHeader from "../components/getInvolved/getInvolvedHero.jsx"
+import Learning from "../components/getInvolved/Learning.jsx"
+import Alumni from "../components/getInvolved/alumni.jsx"
+import Apply from "../components/getInvolved/Apply.jsx"
 ---
 
 
 <Layout title="PMReady">
 
     <Header client:load />
-    <ProgramHero/>
+    <GetInvolvedHeader/>
+    <Learning/>
+    <Alumni/>
+    <Apply/>
     <NewFooter />
 </Layout>

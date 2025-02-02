@@ -14,7 +14,7 @@ export default function StartYourChapter() {
 
             <div className="grid grid-cols-6 mt-20 my-10">
                 <div className="mx-2.5 lg:mx-5 my-auto">
-                    <img src="microsoft.png" alt="Microsoft logo" />
+                    {/*<img src="microsoft.png" alt="Microsoft logo" />*/}
                 </div>
                 <div className="mx-2.5 lg:mx-5 my-auto">
                     <img src="images/image-9.jpeg" alt="" />
@@ -26,7 +26,7 @@ export default function StartYourChapter() {
                     <img src="images/image-15.jpeg" alt="" />
                 </div>
                 <div className="mx-2.5 lg:mx-5 my-auto">
-                    <img src="apple.png" alt="Apple logo" />
+                    {/*<img src="apple.png" alt="Apple logo" />*/}
                 </div>
                 <div className="mx-2.5 lg:mx-5 my-auto">
                     <img src="images/image-16.jpeg" alt="" />

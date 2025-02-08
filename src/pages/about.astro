@@ -1,23 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header";
 import Hero from "../components/about/Hero";
 import Values from "../components/about/Values";
 import VolunteerBanner from "../components/about/VolunteerBanner";
 import ContactUs from "../components/ContactUs";
-import NewFooter from "../components/NewFooter";
-
 ---
 
-
 <Layout title="PMReady">
-
-    <!-- <main class="container max-w-[1800px] mx-auto"> -->
-    <Header client:load />
-    <Hero />
-    <Values />
-    <VolunteerBanner /> 
-    <!-- </main> -->
-    <ContactUs />
-    <NewFooter />
+  <!-- <main class="container max-w-[1800px] mx-auto"> -->
+  <Hero />
+  <Values />
+  <VolunteerBanner />
+  <!-- </main> -->
+  <ContactUs />
 </Layout>

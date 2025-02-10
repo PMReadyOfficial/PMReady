@@ -1,0 +1,14 @@
+---
+import Layout from "../layouts/Layout.astro";
+import TCEBanner from "../components/program/TCE/TCEBanner.jsx";
+import TCEInfo from "../components/program/TCE/TCEInfo.jsx";
+import TCEGuestSpeakers from "../components/program/TCE/TCEGuestSpeakers.jsx";
+import TCEAlumni from "../components/program/TCE/TCEAlumni";
+---
+
+<Layout title="PMReady">
+  <TCEBanner />
+  <TCEInfo />
+  <TCEGuestSpeakers />
+  <TCEAlumni client:load />
+</Layout>

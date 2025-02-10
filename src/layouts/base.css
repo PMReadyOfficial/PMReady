@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-  
-
   .header4 {
     @apply text-2xl font-lexend font-bold;
   }
@@ -20,16 +18,28 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px
+  font-size: 16px;
 }
 
 .border-gradient {
-  background: linear-gradient(92.49deg, rgba(6, 183, 167, 0.6) 1.09%, rgba(140, 198, 63, 0.6) 25.34%, rgba(243, 198, 116, 0.6) 73.34%, rgba(252, 193, 168, 0.6) 99.41%);
+  background: linear-gradient(
+    92.49deg,
+    rgba(6, 183, 167, 0.6) 1.09%,
+    rgba(140, 198, 63, 0.6) 25.34%,
+    rgba(243, 198, 116, 0.6) 73.34%,
+    rgba(252, 193, 168, 0.6) 99.41%
+  );
 }
 
 .box-gradient {
   /* opacity: 0.15; */
-  background: linear-gradient(92deg, rgba(6, 183, 167, 0.09) 1.09%, rgba(140, 198, 63, 0.09) 25.34%, rgba(243, 198, 116, 0.09) 73.34%, rgba(252, 193, 168, 0.09) 99.41%);
+  background: linear-gradient(
+    92deg,
+    rgba(6, 183, 167, 0.09) 1.09%,
+    rgba(140, 198, 63, 0.09) 25.34%,
+    rgba(243, 198, 116, 0.09) 73.34%,
+    rgba(252, 193, 168, 0.09) 99.41%
+  );
 }
 
 .group-2422 {
@@ -40,11 +50,28 @@ body {
 }
 
 .rect-grad {
-  background: var(--Gradient, linear-gradient(272deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
+  background: var(
+    --Gradient,
+    linear-gradient(
+      272deg,
+      rgba(6, 183, 167, 0.6) 1.09%,
+      rgba(140, 198, 63, 0.6) 25.34%,
+      rgba(243, 198, 116, 0.6) 73.34%,
+      rgba(252, 193, 168, 0.6) 99.41%
+    )
+  );
 }
-
 .rect-grad1 {
-  background: var(--Gradient, linear-gradient(2deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%));
+  background: var(
+    --Gradient,
+    linear-gradient(
+      2deg,
+      rgba(6, 183, 167, 0.6) 1.09%,
+      rgba(140, 198, 63, 0.6) 25.34%,
+      rgba(243, 198, 116, 0.6) 73.34%,
+      rgba(252, 193, 168, 0.6) 99.41%
+    )
+  );
 }
 
 .swiper-pagination {
@@ -55,12 +82,24 @@ body {
 
 .comm-hero-grad {
   opacity: 0.15;
-  background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
+  background: linear-gradient(
+    92deg,
+    rgba(6, 183, 167, 0.6) 1.09%,
+    rgba(140, 198, 63, 0.6) 25.34%,
+    rgba(243, 198, 116, 0.6) 73.34%,
+    rgba(252, 193, 168, 0.6) 99.41%
+  );
 }
 
 .contact-hero-grad {
   opacity: 0.15;
-  background: linear-gradient(92deg, rgba(6, 183, 167, 0.60) 1.09%, rgba(140, 198, 63, 0.60) 25.34%, rgba(243, 198, 116, 0.60) 73.34%, rgba(252, 193, 168, 0.60) 99.41%);
+  background: linear-gradient(
+    92deg,
+    rgba(6, 183, 167, 0.6) 1.09%,
+    rgba(140, 198, 63, 0.6) 25.34%,
+    rgba(243, 198, 116, 0.6) 73.34%,
+    rgba(252, 193, 168, 0.6) 99.41%
+  );
 }
 
 .disabled {
@@ -73,54 +112,123 @@ body {
 }
 
 /* Typography Scale for HTML Headers */
+/* Display */
+.display {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 92px;
+}
 
+/* Header H1 */
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+}
 
-
+/* Header H2 */
 h2 {
-  font-size: 3rem;
-  /* 48px */
-  line-height: 3.375rem;
-  /* 54px */
   font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
 }
 
+/* Header H3 */
 h3 {
-  font-size: 2.25rem;
-  /* 36px */
-  line-height: 2.75rem;
-  /* 44px */
   font-weight: bold;
+  font-size: 32px;
+  line-height: 36px;
 }
 
+/* Header H4 */
 h4 {
-  font-size: 2rem;
-  /* 32px */
-  line-height: 2.25rem;
-  /* 36px */
   font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
 }
 
+/* Header H5 */
 h5 {
-  font-size: 1.5rem;
-  /* 24px */
-  line-height: 2rem;
-  /* 32px */
-  font-weight: bold;
+  font-weight: 600; /* Semibold */
+  font-size: 18px;
+  line-height: 24px;
 }
 
+/* Header H6 */
 h6 {
-  font-size: 1.125rem;
-  /* 18px */
-  line-height: 1.5rem;
-  /* 24px */
-  font-weight: 600;
-  /* Semibold */
+  font-weight: 600; /* Semibold */
+  font-size: 14px;
+  line-height: 24px;
 }
 
+/* Button Label */
 .button-label {
-  font-size: 0.875rem;
-  /* 14px */
-  line-height: 1.25rem;
-  /* 20px */
-  font-weight: normal;
+  font-weight: 400; /* Regular */
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }

@@ -1,24 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header";
 import Hero from "../components/home/Hero";
 import Resources from "../components/home/Resources";
 import WhoWeAre from "../components/home/WhoWeAre";
 import StartYourChapter from "../components/home/StartYourChapter";
-import Footer from "../components/Footer";
 import Testimonial from "../components/home/Testimonal";
 ---
 
-
 <Layout title="PMReady">
-
-    <Header client:load />
-    <Hero />
-    <main class="mx-auto">
-        <Resources />
-        <WhoWeAre />
-        <Testimonial client:load />
-        <StartYourChapter />
-    </main>
-    <Footer />
+  <Hero />
+  <main class="mx-auto">
+    <Resources />
+    <WhoWeAre />
+    <Testimonial client:load />
+    <StartYourChapter />
+  </main>
 </Layout>

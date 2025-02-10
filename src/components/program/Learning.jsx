@@ -26,18 +26,30 @@ export default function Learning() {
           />
         </div>
         <div className="text-start w-full max-w-lg sm:w-2/5 pt-10">
+<<<<<<< HEAD
           <h5 className="font-lexend text-[color:var(--color-teal-500,#023849)]  text-[32px] sm:text-[24px] not-italic font-bold leading-9">
             Gain Real-World Experience
           </h5>
+=======
+          <h5 className="font-lexend text-[color:var(--color-teal-500,#023849)]  text-[32px] sm:text-[24px] not-italic font-bold leading-9">Gain Real-World Experience</h5>
+          
+>>>>>>> dev
           <p className="font-inter text-[color:var(--color-dark-600,#24223C)] text-lg not-italic font-normal leading-7 my-5">
             The program is free, and will be made of virtual meetings, case
             studies, guest lectures, and even a small desing-your-own product
             pitch at the end of it all.
           </p>
+<<<<<<< HEAD
           <button className="flex flex-row align-baseline px-8 py-2 border-2 text-[#FA9D74] border-[#FA9D74] rounded-full font-bold">
             Learn More
             <MoveRight className="ml-2" />
           </button>
+=======
+          <a href="/programDetails">
+            <button className="flex flex-row align-baseline px-8 py-2 border-2 text-[#FA9D74] border-[#FA9D74] rounded-full font-bold">Learn More<MoveRight className="ml-2" /></button>
+          </a>
+          
+>>>>>>> dev
         </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-5 w-full items-center lg:justify-center mt-[160px]">

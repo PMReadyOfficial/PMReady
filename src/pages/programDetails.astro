@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header";
+import NewHero from "../components/program/programDetails/programDetailsHero.jsx"
+import Benefits from "../components/program/programDetails/Benefits";
+import P101 from "../components/program/programDetails/P101" 
+import TCE from "../components/program/programDetails/TCE"
+import Footer from "../components/Footer";
+---
+
+
+<Layout title="PMReady">
+
+    <Header client:load />
+    <!--<ProgramHero/>-->
+    <NewHero/>
+    <Benefits/>
+    <P101/>
+    <TCE/>
+    <Footer />
+</Layout>

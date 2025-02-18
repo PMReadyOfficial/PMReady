@@ -1,21 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header"
-import NewFooter from "../components/Footer";
-import Learning from "../components/program/Learning.jsx"
-import Alumni from "../components/program/alumni.jsx"
-import Apply from "../components/program/Apply.jsx"
-import Hero from "../components/program/Hero"
+import NewProgramHero from "../components/program/newProgramHero.jsx";
+import Learning from "../components/program/Learning.jsx";
+import Alumni from "../components/program/alumni.jsx";
+import Apply from "../components/program/Apply.jsx";
 ---
 
-
 <Layout title="PMReady">
-
-    <Header client:load />
-    <!--<ProgramHero/>-->
-    <Hero/>
-    <Learning/>
-    <Alumni/>
-    <Apply/>
-    <NewFooter />
+  <!--<ProgramHero />-->
+  <NewProgramHero />
+  <Learning />
+  <Alumni />
+  <Apply />
 </Layout>

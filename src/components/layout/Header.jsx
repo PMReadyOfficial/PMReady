@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import PMReadywordmark from "@Images/share/logos/PMReadywordmark.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,9 +19,9 @@ const Header = () => {
   return (
     <header className="w-full flex py-3 px-4 ">
       <div className="flex  lg:px-28 bg-[#FEFDFF] items-center">
-        <div id="logo" className="flex item-center pt-1 mr-4">
+        <div id="logo" className="flex item-center pt-1 mr-4 mb-2 w-1/5">
           <a href="./">
-            <img src="Logo.svg" alt="Logo" />
+            <img src={PMReadywordmark} alt="Logo" />
           </a>
         </div>
 

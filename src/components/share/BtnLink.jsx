@@ -6,12 +6,13 @@ export default function BtnLink({
   link,
   text,
   textColor,
+  linkStyle,
 }) {
-  const defaultClasses = "rounded-full text-center text-xl border-2";
+  const defaultClasses = "rounded-full text-center text-xl";
   const ClassNames = `${defaultClasses} ${additionalClasses}`;
 
   return (
-    <a href={link}>
+    <a href={link} className={linkStyle}>
       <Button variant={variant} className={ClassNames}>
         <span className={textColor}> {text}</span>
       </Button>

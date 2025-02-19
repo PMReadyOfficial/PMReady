@@ -7,8 +7,12 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
-import * as React from "react";
+import { useState, useEffect } from "react";
 
+function getWindowDimension() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return { width, height };
+}
 export default function TCEAlumni() {
   const quotes = [
     {
@@ -24,10 +28,18 @@ export default function TCEAlumni() {
         "I loved listening to real professionals talk about their careers and give us advice!",
     },
   ];
-  const windowWidth = Window.innerWidth > 480 ? "horizontal" : "vertical";
-  const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
-  );
+  const [windowDimension, setWindowDimension] = useState(getWindowDimension());
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimension(getWindowDimension());
+    }
+
+    window.addEventListener("resize", handleResize());
+    return () => window.removeEventListener("resize", handleResize());
+  });
+
+  const carouselOrientation =
+    windowDimension.width > 480 ? "horizontal" : "vertical";
   return (
     <div className="md:p-24 px-8 py-12">
       <div>
@@ -35,14 +47,14 @@ export default function TCEAlumni() {
       </div>
       <div className="flex justify-center m-auto md:mt-4 mt-16">
         <Carousel
-          orientation={windowWidth}
+          orientation={carouselOrientation}
           plugins={[
             Autoplay({
               delay: 5000,
             }),
           ]}
           opts={{ align: "start", loop: true }}
-          className="w-full max-w-xs"
+          className="w-full md:max-w-2xl max-w-xs md:mt-4"
         >
           <CarouselContent className="md:h-auto h-44">
             {quotes.map((quotes, index) => (

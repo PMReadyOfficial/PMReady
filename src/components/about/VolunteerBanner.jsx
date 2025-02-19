@@ -34,7 +34,10 @@ export default function VolunteerBanner() {
           </div>
           <div className="inline-block justify-center text-center w-[211px]">
             {/* className="mx-auto block w-40 h-40 rounded-full" */}
-            <img src="./images/people/Arleen_Alcaraz_cano.jpeg"></img>
+            <img
+              src="./images/people/Arleen_Alcaraz_cano.jpeg"
+              className="mx-auto block w-40 h-40 bg-[#D9D9D9] rounded-full"
+            />
             <p className="font-lexend text-lg font-semibold mt-2">
               Arleen Alcaraz-Cano
             </p>

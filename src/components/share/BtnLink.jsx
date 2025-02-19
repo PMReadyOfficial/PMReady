@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 export default function BtnLink({
-  additionalClasses,
+  additionalBtnClasses,
   variant, // Main component is Shadcn Button so check shadcn for variants
   link,
   text,
@@ -9,7 +9,7 @@ export default function BtnLink({
   linkStyle,
 }) {
   const defaultClasses = "rounded-full text-center text-xl";
-  const ClassNames = `${defaultClasses} ${additionalClasses}`;
+  const ClassNames = `${defaultClasses} ${additionalBtnClasses}`;
 
   return (
     <a href={link} className={linkStyle}>

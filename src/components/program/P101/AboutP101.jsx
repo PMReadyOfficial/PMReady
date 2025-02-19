@@ -15,6 +15,7 @@ export default function AboutP101() {
       </div>
       <div className="flex flex-col w-2/5">
         {/* suppose to be drop downs I think but current their is no content will add later  */}
+        {/* probably use popover from shadcn for this when the desing acutally creates it lol */}
         <div className="flex flex-row justify-between p-4">
           <h4>Meeting</h4>
           <button type="">...</button>

@@ -1,3 +1,5 @@
+import TCEPng from "@Images/program/Home/TCE.png";
+
 export default function TCE() {
   return (
     <div className="flex px-40 py-20 gap-4">
@@ -29,7 +31,7 @@ export default function TCE() {
         </div>
       </div>
       <div className="flex-1">
-        <img />
+        <img src={TCEPng} alt="" />
       </div>
     </div>
   );

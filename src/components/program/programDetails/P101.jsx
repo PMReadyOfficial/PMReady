@@ -2,7 +2,7 @@ export default function P101() {
   return (
     <div className="flex px-40 py-20 gap-4">
       <div className="flex-1">
-        <img />
+        <img src="https://placehold.co/450x400" alt="" />
       </div>
       <div className="flex-1">
         <div className="text-[36px] font-bold">P101</div>

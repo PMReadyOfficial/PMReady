@@ -4,8 +4,8 @@ export default function PreviousProjects() {
       <h3 className="text-center mb-8">PREVIOUS PROJECTS</h3>
       <div className="flex flex-row justify-between">
         {/* images should probably be w-1/5 */}
-        <img alt="" />
-        <img alt="" />
+        <img src="https://placehold.co/300x500" alt="" />
+        <img src="https://placehold.co/300x500" alt="" />
         <div className="flex flex-col w-2/5 p-4">
           <h4 className="my-4">Fall 2024</h4>
           <p>

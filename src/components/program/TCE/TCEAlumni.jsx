@@ -41,7 +41,7 @@ export default function TCEAlumni() {
   const carouselOrientation =
     windowDimension.width > 480 ? "horizontal" : "vertical";
   return (
-    <div className="md:p-24 px-8 py-12">
+    <div className="md:p-24 px-8 py-8 mt-4 bg-gray-200 md:h-auto h-96">
       <div>
         <h3 className="text-center">What Our Past Alumni Have To Say</h3>
       </div>

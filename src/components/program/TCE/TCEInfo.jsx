@@ -26,8 +26,8 @@ export default function TCEInfo() {
         </div>
       </div>
       {/* dive into projects */}
-      <div className="flex md:flex-row flex-col-reverse mt-4 justify-between">
-        <div className="md:w-3/5 w-4/5 m-auto p-4">
+      <div className="flex md:flex-row flex-col-reverse mt-4 justify-between h-96">
+        <div className="md:w-3/5 w-4/5 m-auto p-8">
           <h4>Dive Into Projects</h4>
           <p>
             Fellows in the program will be given the opportunity to work on many
@@ -35,8 +35,13 @@ export default function TCEInfo() {
             project.{" "}
           </p>
         </div>
-        <div className="md:w-2/5 w-4/5 md:m-0 m-auto">
-          <img src={Image2} alt="" className="flex-1" />
+        <div className="relative md:w-2/5 w-4/5 md:m-0 m-auto">
+          <img src={Image2} alt="" className="absolute flex-1 top-0 left-0" />
+          <img
+            src={Image3}
+            alt=""
+            className="absolute flex-1 bottom-0 right-0"
+          />
           {/* stacking images */}
         </div>
       </div>

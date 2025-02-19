@@ -5,13 +5,13 @@ import BtnLink from "@/components/share/BtnLink";
 
 export default function TCEInfo() {
   return (
-    <div className="p-24 py-12">
+    <div className="md:p-24 px-8 py-12">
       {/* discover passion */}
-      <div className="flex flex-row justify-between">
-        <div className="w-2/5">
+      <div className="flex md:flex-row flex-col justify-between">
+        <div className="md:w-2/5 w-4/5 md:m-0 m-auto">
           <img src={Image1} alt="" className="flex-1" />
         </div>
-        <div className="flex flex-col justify-between w-3/5 m-auto p-4">
+        <div className="flex flex-col justify-between md:w-3/5 w-4/5 m-auto p-4">
           <h4 className="mb-4">Discover Your Passion</h4>
           <p className="mb-4">
             The TCE program introduces you to several careers paths, including
@@ -26,8 +26,8 @@ export default function TCEInfo() {
         </div>
       </div>
       {/* dive into projects */}
-      <div className="flex flex-row mt-4 justify-between">
-        <div className="w-3/5 m-auto p-4">
+      <div className="flex md:flex-row flex-col-reverse mt-4 justify-between">
+        <div className="md:w-3/5 w-4/5 m-auto p-4">
           <h4>Dive Into Projects</h4>
           <p>
             Fellows in the program will be given the opportunity to work on many
@@ -35,7 +35,7 @@ export default function TCEInfo() {
             project.{" "}
           </p>
         </div>
-        <div className="w-2/5">
+        <div className="md:w-2/5 w-4/5 md:m-0 m-auto">
           <img src={Image2} alt="" className="flex-1" />
           {/* stacking images */}
         </div>

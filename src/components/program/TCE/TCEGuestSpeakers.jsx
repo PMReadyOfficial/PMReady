@@ -23,13 +23,13 @@ export default function TCEGuestSpeaker() {
     },
   ];
   return (
-    <div className="flex flex-col justify-center p-24 py-12 bg-blue-100">
+    <div className="flex flex-col justify-center md:p-24 px-8 py-12 bg-blue-100">
       <div>
         <h3 className="text-center">Learn From Various Guest Speakers</h3>
       </div>
-      <div className="flex flex-row justify-evenly mt-8">
+      <div className="flex md:flex-row flex-col justify-evenly mt-8">
         {GuestSpeakers.map((speaker) => (
-          <div className="bg-slate-50 px-8 py-4 w-1/5">
+          <div className="bg-slate-50 px-8 py-4 md:w-1/5 w-full">
             <img
               src={speaker.profilePicture}
               alt=""

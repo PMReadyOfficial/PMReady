@@ -25,7 +25,6 @@ const Header = () => {
           </a>
         </div>
 
-        {/* discord */}
         <a
           href="https://discord.gg/PnyMh9325g"
           target="_blank"
@@ -118,7 +117,7 @@ const Header = () => {
               Contact
             </a>
           </li>
-          <li className="hidden lg:block px-4 py-3 bg-[#24223C] text-white rounded-full">
+          <li className="hidden lg:block w-1/5 px-6 py-2 bg-[#24223C] text-white rounded-full">
             <a
               href="https://docs.google.com/document/d/1t3kpIMlzpOnv5CQD8Ihw8dpa3xEihp1b8WtaKlVXQlc/edit?usp=sharing"
               className={isActive("get involved")}

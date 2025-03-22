@@ -1,3 +1,5 @@
+import fillerImg from "@Images/community/meetUs/filler_img1.png";
+
 export default function VolunteerBanner() {
   return (
     <div className="text-center justify-center">
@@ -198,7 +200,7 @@ export default function VolunteerBanner() {
         volunteers!
       </h2>
       <img
-        src="./images/image-9.jpeg"
+        src={fillerImg}
         className="mt-5 mx-auto max-w-[300px] min-[400px]:max-w-sm lg:max-w-[864px] rounded-[40px] object-scale-down"
       ></img>
     </div>

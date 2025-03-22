@@ -21,6 +21,10 @@ body {
   font-size: 16px;
 }
 
+span {
+  font-size: inherit;
+}
+
 .border-gradient {
   background: linear-gradient(
     92.49deg,

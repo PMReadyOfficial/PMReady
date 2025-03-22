@@ -2,6 +2,7 @@ import Image1 from "@Images/program/TCE/TCEImage1.png";
 import Image2 from "@Images/program/TCE/TCEImage2.png";
 import Image3 from "@Images/program/TCE/TCEImage3.png";
 import BtnLink from "@/components/share/BtnLink";
+import { Button } from "@/components/ui/button";
 
 export default function TCEInfo() {
   return (
@@ -17,12 +18,14 @@ export default function TCEInfo() {
             The TCE program introduces you to several careers paths, including
             product management, software engineering, and UI/UX design.{" "}
           </p>
-          <BtnLink
-            additionalClasses={"border-2 border-orange-300"}
-            variant={"ghost"}
-            text={" Learn More "}
-            textColor={"text-orange-300"}
-          />
+          <Button
+            className="border-solid border-orange-300 w-1/5 rounded-full"
+            variant="outline"
+          >
+            <a href="" className="text-orange-300">
+              Learn More
+            </a>
+          </Button>
         </div>
       </div>
       {/* dive into projects */}

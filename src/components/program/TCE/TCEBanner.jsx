@@ -9,7 +9,11 @@ export default function TCEBanner() {
           <>PMReady</> X <>BobaTalks</>
         </h3>
         <h2 className="mb-4">Technology Career Exploration Program</h2>
-        <BtnLink text={" Apply Now "} textColor={"text-white"} />
+        <BtnLink
+          text={" Apply Now "}
+          textColor={"text-white"}
+          linkStyle={"border-solid"}
+        />
       </div>
       <div className="flex flex-row justify-center w-2/5 md:visible collapse">
         <img src={Boba} alt="" />

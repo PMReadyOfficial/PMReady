@@ -4,22 +4,26 @@
 // }
 
 // const { title } = Astro.props;
-import '@fontsource-variable/lexend';
-import '@fontsource-variable/inter';
-import './base.css';
-import BaseHead from '../components/BaseHead.astro';
+import "@fontsource-variable/lexend";
+import "@fontsource-variable/inter";
+import "./base.css";
+import BaseHead from "@/components/home/BaseHead.astro";
+import Header from "@/components/layout/Header";
+//import Footer from "@Components/layout/Footer";
+import NewFooter from "@/components/layout/NewFooter";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead />
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
-<!-- <style is:global>
+  <head>
+    <BaseHead />
+  </head>
+  <body>
+    <Header client:load />
+    <slot />
+    <!--<Footer />-->
+    <NewFooter />
+  </body><!-- <style is:global>
 	:root {
 		--accent: 124, 58, 237;
 		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
@@ -33,3 +37,4 @@ import BaseHead from '../components/BaseHead.astro';
 			Bitstream Vera Sans Mono, Courier New, monospace;
 	}
 </style> -->
+</html>

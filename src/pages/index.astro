@@ -1,30 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-// import Stats from "../components/Stats";
-// import Footer from "../components/Footer";
-// import Body from "../components/Body";
-import Resources from "../components/Resources";
-import WhoWeAre from "../components/WhoWeAre";
-import StartYourChapter from "../components/StartYourChapter";
-import NewFooter from "../components/NewFooter";
-import Testimonial from "../components/Testimonal";
+import Hero from "../components/home/Hero";
+import Resources from "../components/home/Resources";
+import WhoWeAre from "../components/home/WhoWeAre";
+import StartYourChapter from "../components/home/StartYourChapter";
+import Testimonial from "../components/home/Testimonal";
 ---
 
-
 <Layout title="PMReady">
-
-    <Header client:load />
-    <Hero />
-    <main class="mx-auto">
-        <!-- <Stats />
-        <Body /> -->
-        <Resources />
-        <WhoWeAre />
-        <Testimonial client:load />
-        <StartYourChapter />
-    </main>
-    <!-- <Footer /> -->
-    <NewFooter />
+  <Hero />
+  <main class="mx-auto">
+    <Resources />
+    <WhoWeAre />
+    <Testimonial client:load />
+    <StartYourChapter />
+  </main>
 </Layout>

@@ -18,8 +18,8 @@ const Header = () => {
 
   return (
     <header className="w-full flex py-3 px-4 ">
-      <div className="flex  lg:px-28 bg-[#FEFDFF] items-center">
-        <div id="logo" className="flex item-center pt-1 mr-4 mb-2 w-1/5">
+      <div className="flex  lg:px-28 bg-[#FEFDFF] items-center flex-1">
+        <div id="logo" className="flex item-centerw-1/5">
           <a href="./">
             <img src={PMReadywordmark} alt="Logo" />
           </a>
@@ -89,7 +89,7 @@ const Header = () => {
 
       <div
         id="menu"
-        className="flex flex-grow justify-end z-20 font-inter text-[#24223C]"
+        className="flex flex-grow justify-end z-20 font-inter text-[#24223Cflex-2"
       >
         <ul className="flex gap-6 items-center text-[16px]">
           <li className="hidden lg:block p-3 ">

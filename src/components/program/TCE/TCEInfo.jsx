@@ -8,12 +8,12 @@ export default function TCEInfo() {
   return (
     <div className="md:p-24 px-8 py-12">
       {/* discover passion */}
-      <div className="flex md:flex-row flex-col justify-between">
-        <div className="md:w-2/5 w-4/5 md:m-0 m-auto">
-          <img src={Image1} alt="" className="flex-1" />
+      <div className="flex md:flex-row flex-col justify-between w-full items-center ">
+        <div className="flex-1  justify-center items-center">
+          <img className="w-4/5 mx-auto" src={Image1} alt=""/>
         </div>
-        <div className="flex flex-col justify-between md:w-3/5 w-4/5 m-auto p-4">
-          <h4 className="mb-4">Discover Your Passion</h4>
+        <div className="flex flex-col flex-1 justify-center p-10 ">
+          <h4 className="mb-4 text-[36px]">Discover Your Passion</h4>
           <p className="mb-4">
             The TCE program introduces you to several careers paths, including
             product management, software engineering, and UI/UX design.{" "}
@@ -28,11 +28,10 @@ export default function TCEInfo() {
           </Button>
         </div>
       </div>
-      {/* dive into projects */}
-      <div className="flex md:flex-row flex-col-reverse mt-4 justify-between h-96">
-        <div className="md:w-3/5 w-4/5 m-auto p-8">
-          <h4>Dive Into Projects</h4>
-          <p>
+      <div className="flex md:flex-row mt-8 h-96">
+        <div className="md:w-3/5 w-4/5 m-auto p-8 ">
+          <h4 className="text-[36px]">Dive Into Projects</h4>
+          <p className="mt-4 w-4/5">
             Fellows in the program will be given the opportunity to work on many
             projects and workshops, leading up to an end-of-program capstone
             project.{" "}
